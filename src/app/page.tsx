@@ -7,7 +7,7 @@ export default function Home() {
    <div className="flex flex-col justify-center items-center  gap-4 text-center">
      <div>
      <Image
-          className=""
+          className="rounded-2xl"
           src="/styloLogo.jpg"
           alt="Next.js logo"
           width={300}
@@ -19,7 +19,7 @@ export default function Home() {
       <h1 className="text-4xl text-center">Website under maintenance</h1>
 <p>Sorry for the inconvenience. Come back a bit 
    later we will be ready soon!</p>
-<p>Please visit our previous website or click there - <a href="https://stylolife.shop/">[www.stylolife.shop]</a></p>
+<p>Please visit our previous website or click here - <a href="https://stylolife.shop/" target="_blank">[www.stylolife.shop]</a></p>
 
   </div>
    </div>
