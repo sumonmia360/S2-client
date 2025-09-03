@@ -57,7 +57,7 @@ export default function Navbar() {
         </div>
 
         {/* Center - Logo */}
-        <Link href="/" className={`text-3xl lg:mr-39 mr-0 md:mr-5 font-extrabold typedLogo tracking-widest ${playfair.className}`}>
+        <Link href="/" className={`text-3xl lg:mr-25 mr-0 md:ml-5 font-extrabold typedLogo tracking-widest ${playfair.className}`}>
           Stylo
         </Link>
 
@@ -68,7 +68,7 @@ export default function Navbar() {
  items-center gap-2  "><Link  href="" ><FiSearch className="text-[18px]" /></Link>
             <Link href="" className="text-[#707070]">search</Link>
             </div>
-           <Link href="" className="hidden"> <p className="text-sm font-bold">EN</p></Link>
+           <Link href="" className="hidden md:block"> <p className="text-sm font-bold">EN</p></Link>
           
           <Link className="hidden md:block"  href="/account">
            

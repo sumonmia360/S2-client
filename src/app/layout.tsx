@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
 
-import Navbar from "@/components/store/Navber";
+import Navbar from "@/components/home/Navber";
 
 export const metadata: Metadata = {
   title: "STYLO | Life Style",
@@ -20,6 +20,7 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        
       </body>
     </html>
   );
