@@ -4,10 +4,10 @@ import Link from "next/link";
 
 import Banner from "../components/home/Banner"
 import Category from "../components/home/Category"
-import CategoryCart from "../components/home/CategoryCarts"
 
 
-export default function TopBar() {
+
+export default function HomePage() {
   
 
   return (
@@ -30,8 +30,7 @@ export default function TopBar() {
     </nav>
    <Banner></Banner>
    <div className="w-full bg-[#f7f7f7] "><Category></Category></div>
-   
-   {/* <CategoryCart></CategoryCart> */}
+
   
 
   

@@ -43,10 +43,10 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <nav className="hidden font-medium md:flex items-center gap-4 text-sm ">
-            <Link href="/men" className=" border-b-black hover:border-b-2 ">MEN</Link>
-            <Link href="/women" className=" border-b-black hover:border-b-2">WOMEN</Link>
-            <Link href="/kids" className=" border-b-black hover:border-b-2 hidden lg:block">KIDS</Link>
-            <Link href="/newArrival" className=" border-b-black hover:border-b-2 p-0 m-0 hidden lg:block">NEW ARRIVAL</Link>
+            <Link href="/men" className="  text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3 ">MEN</Link>
+            <Link href="/women" className=" text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3">WOMEN</Link>
+            <Link href="/kids" className=" text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3 hidden lg:block">KIDS</Link>
+            <Link href="/newArrival" className=" text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3 p-0 m-0 hidden lg:block">NEW ARRIVAL</Link>
           </nav>
         </div>
 
