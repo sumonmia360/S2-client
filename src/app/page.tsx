@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 import Banner from "../components/home/Banner"
+import Banner2 from "../components/home/Banner2"
 import Category from "../components/home/Category"
 
 
@@ -31,7 +32,7 @@ export default function HomePage() {
    <Banner></Banner>
    <div className="w-full bg-[#f7f7f7] "><Category></Category></div>
 
-  
+   <Banner2></Banner2>
 
   
 
