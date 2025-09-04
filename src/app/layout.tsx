@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 
 import Navbar from "@/components/home/Navber";
+import Label from "@/components/home/Label";
 
 export const metadata: Metadata = {
   title: "STYLO | Life Style",
@@ -18,7 +19,9 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <Navbar/>
+        <Navbar />  
+        <Label />
+
         {children}
         
       </body>

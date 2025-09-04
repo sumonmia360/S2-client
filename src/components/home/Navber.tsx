@@ -1,7 +1,6 @@
 "use client";
 
 import "../../styles/globals.css";
-
 import Link from "next/link";
 import { useState } from "react";
 import { FaUser } from "react-icons/fa";
@@ -10,12 +9,7 @@ import { FiSearch } from "react-icons/fi";
 import { Playfair_Display } from "next/font/google";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400", "700"] });
-// import Image from "next/image";
-// import styloNavLogo from '../../../public/Image/styloMiniLogo.png';
 
-//  <Image src={styloNavLogo} alt="Picture of the Stylo logo"
-//       width={120}
-//       height={50}  />
 
 
 import { Menu,  } from "lucide-react";
@@ -27,8 +21,8 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full border-b bg-white">
-      <div className="mx-auto flex h-14 items-center justify-between px-4">
+    <header className="w-full border-b bg-white    top-0 z-50  sticky right-0 left-0   ">
+      <div className="mx-auto flex h-14 items-center bg-white justify-between  px-4">
         
         {/* Left - Mobile Menu */}
         <div className="flex items-center gap-4">
@@ -40,8 +34,8 @@ export default function Navbar() {
               <nav className="flex flex-col  font-bold gap-4 mt-8">
                 <Link href="/men" onClick={() => setOpen(false)}>MEN</Link>
                 <Link href="/women" onClick={() => setOpen(false)}>WOMEN</Link>
-                <Link href="/secondhand" onClick={() => setOpen(false)}>SECONDHAND</Link>
-                <Link href="/outlet" onClick={() => setOpen(false)}>OUTLET</Link>
+                <Link href="/kids" onClick={() => setOpen(false)}>KIDS</Link>
+                <Link href="/newArrival" onClick={() => setOpen(false)}>NEW ARRIVAL</Link>
               </nav>
             </SheetContent>
           </Sheet>
@@ -49,7 +43,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <nav className="hidden font-medium md:flex items-center gap-4 text-sm ">
-            <Link href="/men" className=" border-b-black hover:border-b-2">MEN</Link>
+            <Link href="/men" className=" border-b-black hover:border-b-2 ">MEN</Link>
             <Link href="/women" className=" border-b-black hover:border-b-2">WOMEN</Link>
             <Link href="/kids" className=" border-b-black hover:border-b-2 hidden lg:block">KIDS</Link>
             <Link href="/newArrival" className=" border-b-black hover:border-b-2 p-0 m-0 hidden lg:block">NEW ARRIVAL</Link>
@@ -57,7 +51,7 @@ export default function Navbar() {
         </div>
 
         {/* Center - Logo */}
-        <Link href="/" className={`text-3xl lg:mr-25 mr-0 md:ml-5 font-extrabold typedLogo tracking-widest ${playfair.className}`}>
+        <Link href="/#" className={`text-3xl lg:mr-25 mr-0 md:ml-5 font-extrabold typedLogo tracking-widest ${playfair.className}`}>
           Stylo
         </Link>
 
