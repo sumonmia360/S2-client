@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-
+html body {
+color:  #212529;
+}
 .typedLogo { letter-spacing: -0.01em; transform: scaleX(0.95); }
 @custom-variant dark (&:is(.dark *));
 
