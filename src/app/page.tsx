@@ -6,6 +6,10 @@ import Banner from "../components/home/Banner";
 import Banner2 from "../components/home/Banner2";
 import Category from "../components/home/Category";
 import GridCarts from "../components/home/GridCarts";
+import TrendingPro from "../components/home/TrendingPro";
+import StoriesSection from "@/components/home/StoriesSection";
+import Footer from "@/components/home/Footer/FooterOne";
+import FooterTwo from "@/components/home/Footer/FooterTwo";
 
 export default function HomePage() {
   return (
@@ -25,8 +29,11 @@ export default function HomePage() {
         <Category></Category>
       </div>
       <Banner2></Banner2>
-
       <GridCarts></GridCarts>
+      <TrendingPro></TrendingPro>
+      <StoriesSection></StoriesSection>
+      <Footer></Footer>
+      <FooterTwo></FooterTwo>
     </div>
   );
 }
