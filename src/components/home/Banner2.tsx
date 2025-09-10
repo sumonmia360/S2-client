@@ -16,11 +16,11 @@ export default function TopBar() {
         />
         <div className="">
           <Image
-            src="/image/demoBanner3.png"
+            src="/image/storiesZ5.jpg"
             alt="Hero Banner"
             width={400}
             height={400}
-            className="w-full h-[350px] "
+            className="w-full h-[300px] "
           />
         </div>
 

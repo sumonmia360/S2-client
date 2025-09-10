@@ -41,7 +41,15 @@ const products = [
     id: 5,
     name: "Cargo Denim (6 Pockets,Deep Blue)",
     price: "৳1,090",
-    front: "/image/imgL1.jpg",
+    front: "/image/denimZ2.jpg",
+    back: "/image/imgL2.jpg",
+    slug: "product-four",
+  },
+  {
+    id: 6,
+    name: "Cargo Denim (6 Pockets,Deep Blue)",
+    price: "৳1,090",
+    front: "/image/denimZ3.jpg",
     back: "/image/imgL2.jpg",
     slug: "product-four",
   },
@@ -51,7 +59,7 @@ export default function TrendingPro() {
   return (
     <section className="md:px-6 py-10">
       <h2 className="text-2xl font-bold mb-6">Now Trending</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4  lg:grid-cols-5 gap-1">
+      <div className="grid grid-cols-2 md:grid-cols-4  lg:grid-cols-6 gap-1">
         {products.map((product) => (
           <div key={product.id} className="group relative">
             {/* Wishlist Icon */}

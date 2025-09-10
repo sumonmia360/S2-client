@@ -9,18 +9,18 @@ export default function GridCarts() {
       <div className="grid lg:grid-cols-2 grid-cols-1">
         <div className="relative">
           <Image
-            src="/image/baggeyImg.png"
+            src="/image/categoryH8.png"
             alt="beggy"
             width={400}
             height={400}
             className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
           />
           <Image
-            src="/image/baggeyImg.png"
+            src="/image/categoryH8.png"
             alt="beggy"
             width={400}
             height={400}
-            className="w-full h-[768px] block lg:hidden object-cover group-hover:scale-110 transition duration-300"
+            className="w-full h-[450px]  block lg:hidden object-cover group-hover:scale-110 transition duration-300"
           />
 
           <div className="absolute z-10 max-w-4xl right-2 left-2  flex flex-col items-center gap-6 lg:bottom-4 bottom-5  lg:left-8 mb-3 lg:items-start">
@@ -39,18 +39,18 @@ export default function GridCarts() {
         </div>
         <div className="relative">
           <Image
-            src="/image/demoImg-7.png"
+            src="/image/categoryH1.png"
             alt="beggy"
             width={400}
             height={400}
             className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
           />
           <Image
-            src="/image/demoImg-7.png"
+            src="/image/categoryH1.png"
             alt="beggy"
             width={400}
             height={400}
-            className="w-full h-[768px] block lg:hidden object-cover group-hover:scale-110 transition duration-300"
+            className="w-full h-[450px] block lg:hidden object-cover group-hover:scale-110 transition duration-300"
           />
 
           <div className="absolute z-10 max-w-4xl right-2 left-2  flex flex-col items-center gap-6 lg:bottom-4 bottom-5  lg:left-8 mb-3 lg:items-start">
@@ -69,18 +69,18 @@ export default function GridCarts() {
         </div>
         <div className="relative">
           <Image
-            src="/image/demoImg-8.png"
+            src="/image/categoryH9.png"
             alt="beggy"
             width={400}
             height={400}
             className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
           />
           <Image
-            src="/image/demoImg-8.png"
+            src="/image/categoryH9.png"
             alt="beggy"
             width={400}
             height={400}
-            className="w-full h-[768px] block lg:hidden object-cover group-hover:scale-110 transition duration-300"
+            className="w-full h-[450px] block lg:hidden object-cover group-hover:scale-110 transition duration-300"
           />
 
           <div className="absolute z-10 max-w-4xl right-2 left-2  flex flex-col items-center gap-6 lg:bottom-4 bottom-5  lg:left-8 mb-3 lg:items-start">
@@ -99,18 +99,18 @@ export default function GridCarts() {
         </div>
         <div className="relative">
           <Image
-            src="/image/demoImg-9.png"
+            src="/image/categoryH3.jpg"
             alt="beggy"
             width={400}
             height={400}
             className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
           />
           <Image
-            src="/image/demoImg-9.png"
+            src="/image/categoryH3.jpg"
             alt="beggy"
             width={400}
             height={400}
-            className="w-full h-[768px] block lg:hidden object-cover group-hover:scale-110 transition duration-300"
+            className="w-full h-[450px] block lg:hidden object-cover group-hover:scale-110 transition duration-300"
           />
 
           <div className="absolute z-10 max-w-4xl right-2 left-2  flex flex-col items-center gap-6 lg:bottom-4 bottom-5  lg:left-8 mb-3 lg:items-start">

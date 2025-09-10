@@ -9,11 +9,11 @@ const categories = {
   MEN: [
     {
       name: "Baggey",
-      img: "/image/baggeyImg.png",
+      img: "/image/shopByL5.jpg",
       link: "/products/men/baggey",
     },
-    { name: "Cargo", img: "/image/shopByL6.jpg", link: "/products/men/cargo" },
-    { name: "Denim", img: "/image/shopByL5.jpg", link: "/products/men/denim" },
+    { name: "Cargo", img: "/image/shopByL9.png", link: "/products/men/cargo" },
+    { name: "Denim", img: "/image/shopByL8.png", link: "/products/men/denim" },
     { name: "Classy", img: "/image/shopByL4.png", link: "/products/men/jeans" },
     { name: "Trendy", img: "/image/shopBy1.jpg", link: "/products/men/pants" },
   ],

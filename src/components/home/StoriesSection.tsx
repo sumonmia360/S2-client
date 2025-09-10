@@ -21,14 +21,14 @@ const stories = [
     label: "COLLABORATIONS",
     title: "INSIDE OUT",
     subtitle: "Design duo mens on love, Cargo, and disruption",
-    image: "/image/storiesE1.png",
+    image: "/image/storiesZ9.jpg",
   },
   {
     id: 3,
     label: "COLLABORATIONS",
     title: "THE FASHION GORILLA",
     subtitle: "A natural collaboration with fine taxidermists Fashion.",
-    image: "/image/storiesL3.png",
+    image: "/image/botam.jpg",
   },
 ];
 
