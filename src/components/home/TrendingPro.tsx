@@ -68,7 +68,8 @@ export default function TrendingPro() {
             </button>
 
             {/* Link to product page */}
-            <Link href={`/product/${product.slug}`}>
+            <Link href={`/shop/men`}>
+              {/* <Link href={`/product/${product.slug}`}> */}
               <div className="relative w-full aspect-[3/4] overflow-hidden cursor-pointer">
                 {/* Front Image */}
                 <Image
