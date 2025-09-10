@@ -2,24 +2,22 @@
 
 import Link from "next/link";
 
-import Banner from "../components/home/Banner";
-import Banner2 from "../components/home/Banner2";
-import Category from "../components/home/Category";
-import GridCarts from "../components/home/GridCarts";
-import TrendingPro from "../components/home/TrendingPro";
+import Banner from "../../components/home/Banner";
+import Banner2 from "../../components/home/Banner2";
+import Category from "../../components/home/Category";
+import GridCarts from "../../components/home/GridCarts";
+import TrendingPro from "../../components/home/TrendingPro";
 import StoriesSection from "@/components/home/StoriesSection";
-import Footer from "@/components/home/Footer/FooterOne";
-import FooterTwo from "@/components/home/Footer/FooterTwo";
 
 export default function HomePage() {
   return (
     <div className="w-full bg-white border-b text-sm">
       <nav className="w-full bg-white border-t border-b md:hidden">
         <div className="flex justify-center gap-10 py-3">
-          <Link href="/men" className="  font-extrabold ">
+          <Link href="/shop/men" className="  font-extrabold ">
             MEN
           </Link>
-          <Link href="/women" className="  font-extrabold ">
+          <Link href="/shop/women" className="  font-extrabold ">
             WOMEN
           </Link>
         </div>
@@ -32,8 +30,6 @@ export default function HomePage() {
       <GridCarts></GridCarts>
       <TrendingPro></TrendingPro>
       <StoriesSection></StoriesSection>
-      <Footer></Footer>
-      <FooterTwo></FooterTwo>
     </div>
   );
 }

@@ -15,61 +15,40 @@ import {
   FaTiktok,
 } from "react-icons/fa";
 
+const paymentLogos = [
+  { src: "/image/mastercard.jpg", alt: "Mastercard" },
+  { src: "/image/ae.jpg", alt: "American Express" },
+  { src: "/image/visa.jpg", alt: "Visa" },
+  { src: "/image/rocket.jpg", alt: "Rocket" },
+  { src: "/image/nagad.jpg", alt: "Nagad" },
+  { src: "/image/bkash.jpg", alt: "bKash" },
+];
+
 export default function FooterTwo() {
   return (
-    <div className=" border-t bg-gray-100 px-6 pt-3 pb-10 relative">
-      <div className="w-full flex  justify-center items-center  mb-4 py-8 pl-2  md:hidden">
-        <div className=" flex   items-center  justify-center gap-3 grayscale md:hidden  ">
-          <Image
-            className="rounded  h-full w-[50px]"
-            src="/image/mastercard.jpg"
-            alt="iDEAL"
-            width={40}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/ae.jpg"
-            alt="Klarna"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/visa.jpg"
-            alt="PayPal"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/rocket.jpg"
-            alt="American Express"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/nagad.jpg"
-            alt="Mastercard"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/bkash.jpg"
-            alt="Visa"
-            width={50}
-            height={24}
-          />
+    <div className="border-t bg-gray-100 px-6 pt-3 pb-10 relative">
+      {/* Mobile Payment Icons */}
+      <div className="w-full flex justify-center items-center mb-4 py-8 pl-2 md:hidden">
+        <div className="flex items-center justify-center gap-3 grayscale md:hidden">
+          {paymentLogos.map((logo, i) => (
+            <Image
+              key={i}
+              className="rounded w-[50px] h-auto"
+              src={logo.src}
+              alt={logo.alt}
+              width={200} // keep large intrinsic size
+              height={100} // maintain aspect ratio
+            />
+          ))}
         </div>
       </div>
+
       <div className="mx-auto flex justify-between items-center">
-        {/* App Store + Back to Top */}
+        {/* Logo + Copyright */}
         <div className="flex flex-col items-center md:items-end gap-3">
           <div className="flex gap-1 flex-col items-center">
             <h1
-              className={`${playfair.className} font-bold border p-3 text-lg lg:mt-3 rounded  bg-black text-white`}
+              className={`${playfair.className} font-bold border p-3 text-lg lg:mt-3 rounded bg-black text-white`}
             >
               STYLO
             </h1>
@@ -77,50 +56,18 @@ export default function FooterTwo() {
           </div>
         </div>
 
-        {/* Payment Icons */}
-        <div className=" flex-wrap justify-center gap-4 grayscale hidden md:flex">
-          <Image
-            className="rounded"
-            src="/image/mastercard.jpg"
-            alt="iDEAL"
-            width={40}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/ae.jpg"
-            alt="Klarna"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/visa.jpg"
-            alt="PayPal"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/rocket.jpg"
-            alt="American Express"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/nagad.jpg"
-            alt="Mastercard"
-            width={50}
-            height={24}
-          />
-          <Image
-            className="rounded"
-            src="/image/bkash.jpg"
-            alt="Visa"
-            width={50}
-            height={24}
-          />
+        {/* Payment Icons (Desktop) */}
+        <div className="flex-wrap justify-center gap-4 grayscale hidden md:flex">
+          {paymentLogos.map((logo, i) => (
+            <Image
+              key={i}
+              className="rounded w-[50px] h-auto"
+              src={logo.src}
+              alt={logo.alt}
+              width={200} // big intrinsic size
+              height={100}
+            />
+          ))}
         </div>
 
         {/* Social Icons */}
@@ -139,9 +86,11 @@ export default function FooterTwo() {
           </Link>
         </div>
       </div>
+
+      {/* Back to Top */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="text-sm absolute font-semibold hidden bottom-3 right-6 lg:flex  justify-center  items-center gap-2 text-gray-500 hover:text-black"
+        className="text-sm absolute font-semibold hidden bottom-3 right-6 lg:flex justify-center items-center gap-2 text-gray-500 hover:text-black"
       >
         Back to top <TiArrowSortedUp className="text-lg" />
       </button>

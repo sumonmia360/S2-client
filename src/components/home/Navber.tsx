@@ -1,22 +1,28 @@
 "use client";
 
-import "../../styles/globals.css";
+import "../../app/globals.css";
 import Link from "next/link";
 import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { FiHeart } from "react-icons/fi";
 import { FiSearch } from "react-icons/fi";
 import { Playfair_Display } from "next/font/google";
+import { SlMenu } from "react-icons/sl";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
 
-import { Menu } from "lucide-react";
 import { SlBag } from "react-icons/sl";
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -28,33 +34,37 @@ export default function Navbar() {
         <div className="flex items-center  gap-4">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-              <Menu className="stroke-1" size="25" />
+              <SlMenu />
             </SheetTrigger>
             <SheetContent side="left" className="w-64">
+              <SheetTitle className="hidden">Menu</SheetTitle>
+              <SheetDescription className="hidden">
+                stylo navber
+              </SheetDescription>
               <nav className="flex flex-col ml-5  font-bold gap-4 mt-8 ">
                 <Link
-                  href="/men"
+                  href="/shop/men"
                   className="hover:underline  decoration-2 hover:underline-offset-3"
                   onClick={() => setOpen(false)}
                 >
                   MEN
                 </Link>
                 <Link
-                  href="/women"
+                  href="/shop/women"
                   className="hover:underline  decoration-2 hover:underline-offset-3"
                   onClick={() => setOpen(false)}
                 >
                   WOMEN
                 </Link>
                 <Link
-                  href="/kids"
+                  href="/shop/kids"
                   className="hover:underline  decoration-2 hover:underline-offset-3"
                   onClick={() => setOpen(false)}
                 >
                   KIDS
                 </Link>
                 <Link
-                  href="/newArrival"
+                  href="/shop/men/new_arrivals"
                   className="hover:underline  decoration-2 hover:underline-offset-3"
                   onClick={() => setOpen(false)}
                 >
@@ -70,25 +80,25 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <nav className="hidden font-medium md:flex items-center gap-4 text-sm ">
             <Link
-              href="/men"
+              href="/shop/men"
               className="  text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3 "
             >
               MEN
             </Link>
             <Link
-              href="/women"
+              href="/shop/women"
               className=" text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3"
             >
               WOMEN
             </Link>
             <Link
-              href="/kids"
+              href="/shop/kids"
               className=" text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3 hidden lg:block"
             >
               KIDS
             </Link>
             <Link
-              href="/newArrival"
+              href="/shop/men/new_arrivals"
               className=" text-base font-semibold   hover:underline  decoration-2 hover:underline-offset-3 p-0 m-0 hidden lg:block"
             >
               NEW ARRIVAL
@@ -108,7 +118,7 @@ export default function Navbar() {
         <div className="flex items-center gap-6">
           <div
             className=" hidden md:flex 
- items-center gap-2  "
+                   items-center gap-2  "
           >
             <Link href="">
               <FiSearch className="text-[18px]" />

@@ -12,10 +12,10 @@ const categories = {
       img: "/image/baggeyImg.png",
       link: "/products/men/baggey",
     },
-    { name: "Cargo", img: "/image/cargoImg.png", link: "/products/men/cargo" },
-    { name: "Denim", img: "/image/denimImg.png", link: "/products/men/denim" },
-    { name: "Jeans", img: "/image/jeansImg.png", link: "/products/men/jeans" },
-    { name: "Pants", img: "/image/pantsImg.png", link: "/products/men/pants" },
+    { name: "Cargo", img: "/image/shopByL6.jpg", link: "/products/men/cargo" },
+    { name: "Denim", img: "/image/shopByL5.jpg", link: "/products/men/denim" },
+    { name: "Classy", img: "/image/shopByL4.png", link: "/products/men/jeans" },
+    { name: "Trendy", img: "/image/shopBy1.jpg", link: "/products/men/pants" },
   ],
   WOMEN: [
     { name: "Dresses", img: "/image/womensImg.png", link: "/#" },
@@ -67,7 +67,7 @@ export default function Category() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.4 }}
-              className="grid grid-cols-2 md:grid-cols-3 justify-center items-center lg:grid-cols-5 gap-10"
+              className="grid grid-cols-2 md:grid-cols-3 justify-center items-center lg:grid-cols-5 gap-8"
             >
               {categories[activeTab].map((cat) => (
                 <Link
@@ -80,7 +80,7 @@ export default function Category() {
                     alt={cat.name}
                     width={400}
                     height={400}
-                    className="w-full h-[330px] object-cover group-hover:scale-110 transition duration-300"
+                    className="w-full h-[400px] object-cover group-hover:scale-110 transition duration-300"
                   />
                   <div className="absolute text-[18px]  bottom-3 left-5/12  text-white font-bold  drop-shadow-lg">
                     {cat.name}
@@ -113,7 +113,7 @@ export default function Category() {
                       alt={cat.name}
                       width={160}
                       height={200}
-                      className="w-full h-[200px] object-cover"
+                      className="w-full h-[300px] object-cover"
                     />
                     <div className=" absolute text-white  bottom-2 left-5/12  text-[12px] drop-shadow-lg font-bold">
                       {cat.name}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 2,
+    "name": "A Cargo Jeans Light black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 3,
+    "name": "Baggy Jeans (Deep black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 4,
+    "name": "Baggy Jeans (Light black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 5,
+    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 6,
+    "name": "A Cargo Jeans Light black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 7,
+    "name": "Baggy Jeans (Deep black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 8,
+    "name": "Baggy Jeans (Light black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 9,
+    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 10,
+    "name": "A Cargo Jeans Light black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 11,
+    "name": "Baggy Jeans (Deep black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 12,
+    "name": "Baggy Jeans (Light black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 13,
+    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 14,
+    "name": "A Cargo Jeans Light black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 15,
+    "name": "Baggy Jeans (Deep black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 16,
+    "name": "Baggy Jeans (Light black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 17,
+    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 18,
+    "name": "A Cargo Jeans Light black (6 Pockets)",
+    "price": 1450,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 19,
+    "name": "Baggy Jeans (Deep black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  },
+  {
+    "id": 20,
+    "name": "Baggy Jeans (Light black)",
+    "price": 1250,
+    "image": "/image/baggeyImg.png"
+  }
+]

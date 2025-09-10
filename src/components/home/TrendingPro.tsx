@@ -9,40 +9,40 @@ const products = [
     id: 1,
     name: "Cargo Jeans (Dark black)",
     price: "৳1,450",
-    front: "/image/demoImg-8.png",
-    back: "/image/demoImg-7.png",
+    front: "/image/cargoImg.png",
+    back: "/image/img2a.jpg",
     slug: "product-one",
   },
   {
     id: 2,
     name: "Cargo Jeans (Light black)",
-    price: "৳1,150",
-    front: "/image/demoImg-8.png",
-    back: "/image/demoImg-7.png",
+    price: "৳1,450",
+    front: "/image/2.1.jpg",
+    back: "/image/img2.jpg",
     slug: "product-two",
   },
   {
     id: 3,
     name: "Baggy Jeans (Deep black)",
     price: "৳1,250",
-    front: "/image/demoImg-8.png",
-    back: "/image/demoImg-7.png",
+    front: "/image/imgB2.jpg",
+    back: "/image/img2c.jpg",
     slug: "product-three",
   },
   {
     id: 4,
     name: "Baggy Jeans (Light black)",
     price: "৳1,250",
-    front: "/image/demoImg-8.png",
-    back: "/image/demoImg-7.png",
+    front: "/image/demoImg-7.png",
+    back: "/image/img3b.jpg",
     slug: "product-four",
   },
   {
     id: 5,
     name: "Cargo Denim (6 Pockets,Deep Blue)",
     price: "৳1,090",
-    front: "/image/demoImg-8.png",
-    back: "/image/demoImg-7.png",
+    front: "/image/imgL1.jpg",
+    back: "/image/imgL2.jpg",
     slug: "product-four",
   },
 ];
@@ -67,6 +67,9 @@ export default function TrendingPro() {
                   src={product.front}
                   alt={product.name}
                   fill
+                  sizes="(max-width: 768px) 100vw, 
+               (max-width: 1200px) 50vw, 
+               33vw"
                   className="object-cover transition-opacity duration-300 group-hover:opacity-0"
                 />
                 {/* Back Image */}
@@ -74,6 +77,9 @@ export default function TrendingPro() {
                   src={product.back}
                   alt={product.name}
                   fill
+                  sizes="(max-width: 768px) 100vw, 
+               (max-width: 1200px) 50vw, 
+               33vw"
                   className="object-cover absolute top-0 left-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
                 />
               </div>
@@ -81,8 +87,8 @@ export default function TrendingPro() {
 
             {/* Product Info */}
             <div className="mt-3">
-              <p className=" font-bold text-base">{product.price}</p>
-              <p className="text-gray-500 text-base">{product.name}</p>
+              <p className=" font-bold text-[14px]">{product.price}</p>
+              <p className="text-gray-500 text-[12px]">{product.name}</p>
             </div>
           </div>
         ))}

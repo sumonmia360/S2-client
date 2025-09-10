@@ -8,7 +8,8 @@ export default function TopBar() {
       <section className="relative w-full lg:h-[90vh] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <Image
-          src="/image/mcBanner.png"
+          src="/image/bannerImgL1.jpg"
+          // src="/image/mcBanner.png"
           alt="Hero Banner"
           fill
           className="object-cover hidden lg:block"
@@ -16,7 +17,7 @@ export default function TopBar() {
         />
         <div className="">
           <Image
-            src="/image/mcMobilBanner.png"
+            src="/image/bannerImgL1.jpg"
             alt="Hero Banner"
             width={400}
             height={450}
