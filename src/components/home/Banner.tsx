@@ -9,8 +9,8 @@ export default function TopBar() {
         {/* Background Image */}
         <Link href={`/shop/men`}>
           <Image
-            src="/image/bannerImgL1.jpg"
-            // src="/image/mcBanner.png"
+            src="/images/bannerImgL1.jpg"
+            // src="/images/mcBanner.png"
             alt="Hero Banner"
             fill
             className="object-cover hidden lg:block"
@@ -19,7 +19,7 @@ export default function TopBar() {
 
           <div className="">
             <Image
-              src="/image/bannerImgL1.jpg"
+              src="/images/bannerImgL1.jpg"
               alt="Hero Banner"
               width={400}
               height={450}

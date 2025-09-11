@@ -9,24 +9,24 @@ const categories = {
   MEN: [
     {
       name: "Baggey",
-      img: "/image/shopByL5.jpg",
+      img: "/images/shopByL5.jpg",
       link: "/shop/men/",
     },
-    { name: "Cargo", img: "/image/shopByL9.png", link: "/shop/men/" },
-    { name: "Denim", img: "/image/shopByL8.png", link: "/shop/men/" },
-    { name: "Classy", img: "/image/shopByL4.png", link: "/shop/men/" },
-    { name: "Trendy", img: "/image/shopBy1.jpg", link: "/shop/men/" },
+    { name: "Cargo", img: "/images/shopByL9.png", link: "/shop/men/" },
+    { name: "Denim", img: "/images/shopByL8.png", link: "/shop/men/" },
+    { name: "Classy", img: "/images/shopByL4.png", link: "/shop/men/" },
+    { name: "Trendy", img: "/images/shopBy1.jpg", link: "/shop/men/" },
   ],
   WOMEN: [
-    { name: "Dresses", img: "/image/womensImg.png", link: "/#" },
-    { name: "Tops", img: "/image/womensImg.png", link: "/#" },
-    { name: "Jeans", img: "/image/womensImg.png", link: "/#" },
-    { name: "Outerwear1", img: "/image/womensImg.png", link: "/#" },
-    // { name: "Outerwear", img: "/image/womensImg.png", link: "/shop/women/outerwear" },
+    { name: "Dresses", img: "/images/womensImg.png", link: "/#" },
+    { name: "Tops", img: "/images/womensImg.png", link: "/#" },
+    { name: "Jeans", img: "/images/womensImg.png", link: "/#" },
+    { name: "Outerwear1", img: "/images/womensImg.png", link: "/#" },
+    // { name: "Outerwear", img: "/images/womensImg.png", link: "/shop/women/outerwear" },
   ],
   KIDS: [
-    { name: "Boys", img: "/image/kidsImg.png", link: "/#" },
-    { name: "Girls", img: "/image/kidsImg.png", link: "/#" },
+    { name: "Boys", img: "/images/kidsImg.png", link: "/#" },
+    { name: "Girls", img: "/images/kidsImg.png", link: "/#" },
   ],
 };
 

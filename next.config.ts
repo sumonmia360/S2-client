@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
         hostname: "picsum.photos", // add other hostnames if needed
       },
     ],
+    unoptimized: true, // disables server-side image optimization
   },
   devIndicators: false,
   eslint: {

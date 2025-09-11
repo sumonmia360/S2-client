@@ -14,21 +14,21 @@ const stories = [
     label: "COLLABORATIONS",
     title: "THE KING’S GAMBIT",
     subtitle: "Changing the rules with Stylo Fashion",
-    frontImage: "/image/storiesImg.png",
+    frontImage: "/images/storiesImg.png",
   },
   {
     id: 2,
     label: "COLLABORATIONS",
     title: "INSIDE OUT",
     subtitle: "Design duo mens on love, Cargo, and disruption",
-    frontImage: "/image/storiesZ9.jpg",
+    frontImage: "/images/storiesZ9.jpg",
   },
   {
     id: 3,
     label: "COLLABORATIONS",
     title: "THE FASHION GORILLA",
     subtitle: "A natural collaboration with fine taxidermists Fashion.",
-    frontImage: "/image/botam.jpg",
+    frontImage: "/images/botam.jpg",
   },
 ];
 
