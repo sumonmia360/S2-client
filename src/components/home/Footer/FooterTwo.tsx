@@ -16,12 +16,15 @@ import {
 } from "react-icons/fa";
 
 const paymentLogos = [
-  { src: "/images/mastercard.jpg", alt: "Mastercard" },
-  { src: "/images/ae.jpg", alt: "American Express" },
-  { src: "/images/visa.jpg", alt: "Visa" },
-  { src: "/images/rocket.jpg", alt: "Rocket" },
-  { src: "/images/nagad.jpg", alt: "Nagad" },
-  { src: "/images/bkash.jpg", alt: "bKash" },
+  {
+    src: "https://stylolifestyle.com/images/mastercard.jpg",
+    alt: "Mastercard",
+  },
+  { src: "https://stylolifestyle.com/images/ae.jpg", alt: "American Express" },
+  { src: "https://stylolifestyle.com/images/visa.jpg", alt: "Visa" },
+  { src: "https://stylolifestyle.com/images/rocket.jpg", alt: "Rocket" },
+  { src: "https://stylolifestyle.com/images/nagad.jpg", alt: "Nagad" },
+  { src: "https://stylolifestyle.com/images/bkash.jpg", alt: "bKash" },
 ];
 
 export default function FooterTwo() {

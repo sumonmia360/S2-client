@@ -9,24 +9,64 @@ const categories = {
   MEN: [
     {
       name: "Baggey",
-      img: "/images/shopByL5.jpg",
+      img: "https://stylolifestyle.com/images/shopByL5.jpg",
       link: "/shop/men/",
     },
-    { name: "Cargo", img: "/images/shopByL9.png", link: "/shop/men/" },
-    { name: "Denim", img: "/images/shopByL8.png", link: "/shop/men/" },
-    { name: "Classy", img: "/images/shopByL4.png", link: "/shop/men/" },
-    { name: "Trendy", img: "/images/shopBy1.jpg", link: "/shop/men/" },
+    {
+      name: "Cargo",
+      img: "https://stylolifestyle.com/images/shopByL9.png",
+      link: "/shop/men/",
+    },
+    {
+      name: "Denim",
+      img: "https://stylolifestyle.com/images/shopByL8.png",
+      link: "/shop/men/",
+    },
+    {
+      name: "Classy",
+      img: "https://stylolifestyle.com/images/shopByL4.png",
+      link: "/shop/men/",
+    },
+    {
+      name: "Trendy",
+      img: "https://stylolifestyle.com/images/shopBy1.jpg",
+      link: "/shop/men/",
+    },
   ],
   WOMEN: [
-    { name: "Dresses", img: "/images/womensImg.png", link: "/#" },
-    { name: "Tops", img: "/images/womensImg.png", link: "/#" },
-    { name: "Jeans", img: "/images/womensImg.png", link: "/#" },
-    { name: "Outerwear1", img: "/images/womensImg.png", link: "/#" },
-    // { name: "Outerwear", img: "/images/womensImg.png", link: "/shop/women/outerwear" },
+    {
+      name: "Dresses",
+      img: "https://stylolifestyle.com/images/womensImg.png",
+      link: "/#",
+    },
+    {
+      name: "Tops",
+      img: "https://stylolifestyle.com/images/womensImg.png",
+      link: "/#",
+    },
+    {
+      name: "Jeans",
+      img: "https://stylolifestyle.com/images/womensImg.png",
+      link: "/#",
+    },
+    {
+      name: "Outerwear1",
+      img: "https://stylolifestyle.com/images/womensImg.png",
+      link: "/#",
+    },
+    // { name: "Outerwear", img: "https://stylolifestyle.com/images/womensImg.png", link: "/shop/women/outerwear" },
   ],
   KIDS: [
-    { name: "Boys", img: "/images/kidsImg.png", link: "/#" },
-    { name: "Girls", img: "/images/kidsImg.png", link: "/#" },
+    {
+      name: "Boys",
+      img: "https://stylolifestyle.com/images/kidsImg.png",
+      link: "/#",
+    },
+    {
+      name: "Girls",
+      img: "https://stylolifestyle.com/images/kidsImg.png",
+      link: "/#",
+    },
   ],
 };
 
