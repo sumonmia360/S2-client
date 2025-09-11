@@ -9,7 +9,7 @@ type Product = {
   id: number;
   name: string;
   price: number;
-  image: string;
+  frontImage: string;
   backImage: string;
 };
 
@@ -66,7 +66,7 @@ export default function MenShopPage() {
               className="group relative"
             >
               <Image
-                src={product.image}
+                src={product.frontImage}
                 alt={product.name}
                 width={400}
                 height={400}
@@ -95,21 +95,21 @@ export default function MenShopPage() {
           Men's Clothing
         </h1>
         <p className="mb-5">
-          Upgrade your wardrobe with STYLO&apos;s premium collection of
-          men&apos;s clothing, where craftsmanship and innovation come together.
-          From durable staples to bold statement pieces, our designs are made
-          for modern men who value quality and style. Whether you&apos;re
-          dressing for casual outings or smart occasions, our clothing is built
-          to keep up with your lifestyle and set you apart.
+          Upgrade your wardrobe with STYLOs premium collection of mens clothing,
+          where craftsmanship and innovation come together. From durable staples
+          to bold statement pieces, our designs are made for modern men who
+          value quality and style. Whether you are dressing for casual outings
+          or smart occasions, our clothing is built to keep up with your
+          lifestyle and set you apart.
         </p>
         <h1 className="font-semibold mb-1 text-gray-600 text-[17px]">
-          Explore Men&apos;s Jeans
+          Explore Men s Jeans
         </h1>
         <p className="mb-5">
-          STYLO&apos;s men&apos;s jeans are crafted with cutting-edge techniques
-          and sustainable materials, offering a wide range of styles, from slim
-          fits to relaxed cuts. Designed for durability and comfort, these jeans
-          are perfect for both everyday wear and dressing up. Style them with a
+          STYLO s mens jeans are crafted with cutting-edge techniques and
+          sustainable materials, offering a wide range of styles, from slim fits
+          to relaxed cuts. Designed for durability and comfort, these jeans are
+          perfect for both everyday wear and dressing up. Style them with a
           classic shirt or layer a jacket for an effortlessly versatile look
           that works day to night.
         </p>
@@ -117,10 +117,10 @@ export default function MenShopPage() {
           Essentials for Everyday Wear
         </h1>
         <p className="mb-5">
-          STYLO&apos;s everyday wear collection offers the perfect blend of
-          comfort and style. Explore men&apos;s t-shirts crafted from soft,
-          high-quality fabrics that make them wardrobe essentials. Whether you
-          prefer minimalist designs or bold prints, our range of t-shirts pairs
+          STYLOs everyday wear collection offers the perfect blend of comfort
+          and style. Explore men's t-shirts crafted from soft, high-quality
+          fabrics that make them wardrobe essentials. Whether you prefer
+          minimalist designs or bold prints, our range of t-shirts pairs
           effortlessly with denim, making them the ultimate go-to for casual
           days.
         </p>
