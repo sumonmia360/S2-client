@@ -35,13 +35,26 @@ export default function ProductDetailsPage() {
   const [activeSize, setActiveSize] = useState<string | null>(null);
 
   useEffect(() => {
-    axios
-      .get("/products.json")
-      .then((res) => {
-        const found = res.data.find((p: Product) => p.id === Number(id));
-        setProduct(found);
-      })
-      .catch((err) => console.error("Error fetching product:", err));
+    if (id) {
+      axios
+        .get("/products.json")
+        .then((res) => {
+          const foundProduct = res.data.find(
+            (p: Product) => p.id === Number(id)
+          );
+          if (foundProduct) {
+            setProduct(foundProduct);
+            setActiveSize(null); // Reset size when changing products
+          } else {
+            console.error("Product not found.");
+            setProduct(null);
+          }
+        })
+        .catch((err) => {
+          console.error("Error fetching product:", err);
+          setProduct(null);
+        });
+    }
   }, [id]);
 
   const addToCart = () => {
@@ -157,10 +170,10 @@ export default function ProductDetailsPage() {
               Product Description
             </h2>
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-              Upgrade your wardrobe with STYLO’s premium collection of men’s
-              clothing. This {product.name} is crafted with durable materials,
-              designed for comfort and long-lasting wear. Perfect for everyday
-              styling and versatile enough to dress up or down.
+              Upgrade your wardrobe with STYLO&apos;s premium collection of
+              men&apos;s clothing. This {product.name} is crafted with durable
+              materials, designed for comfort and long-lasting wear. Perfect for
+              everyday styling and versatile enough to dress up or down.
             </p>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function MenShopPage() {
       {products.length === 0 ? (
         <p className="text-center text-gray-500">Loading products...</p>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 ">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
           {products.map((product) => (
             <Link
               href={`/shop/men/${product.id}`}
@@ -70,7 +70,7 @@ export default function MenShopPage() {
                 alt={product.name}
                 width={400}
                 height={400}
-                className="w-full h-60 lg:h-100   object-cover transition-opacity duration-300 group-hover:opacity-0 "
+                className="w-full h-60 lg:h-100 object-cover transition-opacity duration-300 group-hover:opacity-0"
               />
               <Image
                 src={product.backImage}
@@ -79,12 +79,9 @@ export default function MenShopPage() {
                 height={400}
                 className="w-full h-60 lg:h-100 object-cover absolute top-0 left-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
               />
-              <div
-                className=" md:mb-10 hover:shadow-xl/20 p-1  
-          hover:scale-101 cursor-pointer"
-              >
+              <div className=" md:mb-10 hover:shadow-xl/20 p-1 hover:scale-101 cursor-pointer">
                 <p className="px-[2px] font-bold">৳{product.price}</p>
-                <h2 className=" px-[2px] w-40 text-[14px] truncate md:text-[16px] md:w-full   mb-4">
+                <h2 className="px-[2px] w-40 text-[14px] truncate md:text-[16px] md:w-full mb-4">
                   {product.name}
                 </h2>
               </div>
@@ -93,26 +90,26 @@ export default function MenShopPage() {
         </div>
       )}
 
-      <div className=" text-gray-500 ">
-        <h1 className="font-semibold mb-1 text-gray-600 text-[17px] ">
+      <div className="text-gray-500">
+        <h1 className="font-semibold mb-1 text-gray-600 text-[17px]">
           Men's Clothing
         </h1>
         <p className="mb-5">
-          Upgrade your wardrobe with STYLO’s premium collection of men’s
-          clothing, where craftsmanship and innovation come together. From
-          durable staples to bold statement pieces, our designs are made for
-          modern men who value quality and style. Whether you’re dressing for
-          casual outings or smart occasions, our clothing is built to keep up
-          with your lifestyle and set you apart.
+          Upgrade your wardrobe with STYLO&apos;s premium collection of
+          men&apos;s clothing, where craftsmanship and innovation come together.
+          From durable staples to bold statement pieces, our designs are made
+          for modern men who value quality and style. Whether you&apos;re
+          dressing for casual outings or smart occasions, our clothing is built
+          to keep up with your lifestyle and set you apart.
         </p>
         <h1 className="font-semibold mb-1 text-gray-600 text-[17px]">
-          Explore Men's Jeans
+          Explore Men&apos;s Jeans
         </h1>
         <p className="mb-5">
-          STYLO'S men's jeans are crafted with cutting-edge techniques and
-          sustainable materials, offering a wide range of styles, from slim fits
-          to relaxed cuts. Designed for durability and comfort, these jeans are
-          perfect for both everyday wear and dressing up. Style them with a
+          STYLO&apos;s men&apos;s jeans are crafted with cutting-edge techniques
+          and sustainable materials, offering a wide range of styles, from slim
+          fits to relaxed cuts. Designed for durability and comfort, these jeans
+          are perfect for both everyday wear and dressing up. Style them with a
           classic shirt or layer a jacket for an effortlessly versatile look
           that works day to night.
         </p>
@@ -120,10 +117,10 @@ export default function MenShopPage() {
           Essentials for Everyday Wear
         </h1>
         <p className="mb-5">
-          STYLO’s everyday wear collection offers the perfect blend of comfort
-          and style. Explore men's t-shirts crafted from soft, high-quality
-          fabrics that make them wardrobe essentials. Whether you prefer
-          minimalist designs or bold prints, our range of t-shirts pairs
+          STYLO&apos;s everyday wear collection offers the perfect blend of
+          comfort and style. Explore men&apos;s t-shirts crafted from soft,
+          high-quality fabrics that make them wardrobe essentials. Whether you
+          prefer minimalist designs or bold prints, our range of t-shirts pairs
           effortlessly with denim, making them the ultimate go-to for casual
           days.
         </p>
