@@ -63,7 +63,7 @@ export default function TrendingPro() {
         {products.map((product) => (
           <div key={product.id} className="group relative">
             {/* Wishlist Icon */}
-            <button className="absolute top-2 right-2 z-10 p-2  rounded-full  hover:bg-white transition">
+            <button className="absolute top-1 right-2 z-10 p-2  rounded-full  hover:bg-white transition">
               <FiHeart className="text-black " />
             </button>
 

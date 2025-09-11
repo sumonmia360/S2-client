@@ -3,120 +3,149 @@
     "id": 1,
     "name": "A Cargo Jeans Dark black (6 Pockets)",
     "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/cargoImg.png",
+    "backImage": "/image/img2a.jpg"
   },
   {
     "id": 2,
     "name": "A Cargo Jeans Light black (6 Pockets)",
     "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/2.1.jpg",
+    "backImage": "/image/img2.jpg"
   },
   {
     "id": 3,
     "name": "Baggy Jeans (Deep black)",
     "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/imgB2.jpg",
+    "backImage": "/image/img2c.jpg"
   },
   {
     "id": 4,
     "name": "Baggy Jeans (Light black)",
     "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/demoImg-7.png",
+    "backImage": "/image/img3b.jpg"
   },
   {
     "id": 5,
-    "name": "A Cargo Jeans Dark black (6 Pockets)",
-    "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "name": "Cargo Denim (6 Pockets,Deep Blue)",
+    "price": "৳1,090",
+    "image": "/image/denimZ2.jpg",
+    "backImage": "/image/imgL2.jpg"
   },
   {
     "id": 6,
-    "name": "A Cargo Jeans Light black (6 Pockets)",
-    "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "name": "Cargo Denim (6 Pockets,Deep Blue)",
+    "price": "৳1,090",
+    "image": "/image/denimZ3.jpg",
+    "backImage": "/image/imgL2.jpg"
   },
+
   {
     "id": 7,
-    "name": "Baggy Jeans (Deep black)",
+    "name": "Cargo Regular Fit (Deep Gray color)",
     "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p1.jpg",
+    "backImage": "/image/p1.jpg"
   },
   {
     "id": 8,
-    "name": "Baggy Jeans (Light black)",
+    "name": "Cargo Baggy 6 Pockets (Ahs full Color)",
     "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p2.jpg",
+    "backImage": "/image/p2.jpg"
   },
   {
     "id": 9,
-    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "name": "Cargo Baggy 6 Pockets (Black Color)",
     "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p3.jpg",
+    "backImage": "/image/p3.jpg"
   },
   {
     "id": 10,
-    "name": "A Cargo Jeans Light black (6 Pockets)",
+    "name": "Cargo Baggy 6 Pockets (Camel Color)",
     "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p4.jpg",
+    "backImage": "/image/p4.jpg"
   },
   {
     "id": 11,
-    "name": "Baggy Jeans (Deep black)",
+    "name": "Cargo Baggy Pant 6 Pockets (Khaki Color)",
     "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p5.jpg",
+    "backImage": "/image/p5.jpg"
   },
-  {
-    "id": 12,
-    "name": "Baggy Jeans (Light black)",
-    "price": 1250,
-    "image": "/image/baggeyImg.png"
-  },
+
   {
     "id": 13,
-    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "name": "Cargo Pant Regular Fit (Full Black Color)",
     "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p7.jpg",
+    "backImage": "/image/p7.jpg"
   },
   {
     "id": 14,
-    "name": "A Cargo Jeans Light black (6 Pockets)",
+    "name": "Cargo Regular Fit (Cream color)",
     "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p8.jpg",
+    "backImage": "/image/p8.jpg"
   },
   {
     "id": 15,
-    "name": "Baggy Jeans (Deep black)",
+    "name": "Cargo Regular Fit (Khaki color)",
     "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p9.jpg",
+    "backImage": "/image/p9.jpg"
   },
   {
     "id": 16,
-    "name": "Baggy Jeans (Light black)",
+    "name": "Cargo Regular Fit (Khaki color)",
     "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p10.jpg",
+    "backImage": "/image/p10.jpg"
   },
   {
     "id": 17,
-    "name": "A Cargo Jeans Dark black (6 Pockets)",
+    "name": "Cargo Regular Fit (Olive Color)",
     "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "image": "/image/p11.jpg",
+    "backImage": "/image/p11.jpg"
   },
   {
     "id": 18,
-    "name": "A Cargo Jeans Light black (6 Pockets)",
-    "price": 1450,
-    "image": "/image/baggeyImg.png"
+    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Ahs Color)",
+    "price": 750,
+    "image": "/image/p12.jpg",
+    "backImage": "/image/p12.jpg"
   },
   {
     "id": 19,
-    "name": "Baggy Jeans (Deep black)",
-    "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Black Color)",
+    "price": 750,
+    "image": "/image/p13.jpg",
+    "backImage": "/image/p13.jpg"
   },
   {
     "id": 20,
-    "name": "Baggy Jeans (Light black)",
-    "price": 1250,
-    "image": "/image/baggeyImg.png"
+    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Camel Color)",
+    "price": 750,
+    "image": "/image/p14.jpg",
+    "backImage": "/image/p14.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Khaki Color)",
+    "price": 750,
+    "image": "/image/p15.jpg",
+    "backImage": "/image/p15.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Navy Blue Color)",
+    "price": 750,
+    "image": "/image/p16.jpg",
+    "backImage": "/image/p16.jpg"
   }
 ]
