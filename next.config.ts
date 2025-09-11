@@ -4,12 +4,16 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "picsum.photos", // add other hostnames if needed
+        protocol: "https", // allow https
+        hostname: "**", // allow all hostnames
+      },
+      {
+        protocol: "http", // allow http
+        hostname: "**", // allow all hostnames
       },
     ],
-    unoptimized: true, // disables server-side image optimization
-    domains: ["stylolifestyle.com"],
+    unoptimized: true, // disables server-side image optimization (good for debugging)
+    domains: ["stylolifestyle.com"], // keep your custom domain just in case
   },
   devIndicators: false,
   eslint: {
