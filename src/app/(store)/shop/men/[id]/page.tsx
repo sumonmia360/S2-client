@@ -173,7 +173,7 @@ export default function ProductDetailsPage() {
               Upgrade your wardrobe with STYLO's premium collection of men's
               clothing. This {product.name} is crafted with durable materials,
               designed for comfort and long-lasting wear. Perfect for everyday
-              styling and versatile enough to dress up or down.
+              styling and versatile enough to dress up or down...
             </p>
           </div>
         </div>
