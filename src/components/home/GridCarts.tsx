@@ -10,14 +10,14 @@ export default function GridCarts() {
         <div className="relative">
           <Link href={`/shop/men`}>
             <Image
-              src="https://stylolifestyle.com/images/categoryH8.png"
+              src="/image/categoryH8.png"
               alt="beggy"
               width={400}
               height={400}
               className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
             />
             <Image
-              src="https://stylolifestyle.com/images/categoryH8.png"
+              src="/image/categoryH8.png"
               alt="beggy"
               width={400}
               height={400}
@@ -47,14 +47,14 @@ export default function GridCarts() {
         <div className="relative">
           <Link href={`/shop/men`}>
             <Image
-              src="https://stylolifestyle.com/images/categoryH1.png"
+              src="/image/categoryH1.png"
               alt="beggy"
               width={400}
               height={400}
               className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
             />
             <Image
-              src="https://stylolifestyle.com/images/categoryH1.png"
+              src="/image/categoryH1.png"
               alt="beggy"
               width={400}
               height={400}
@@ -84,14 +84,14 @@ export default function GridCarts() {
         <div className="relative">
           <Link href={`/shop/men`}>
             <Image
-              src="https://stylolifestyle.com/images/categoryH9.png"
+              src="https/stylolifestyle.com/image/categoryH9.png"
               alt="beggy"
               width={400}
               height={400}
               className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
             />
             <Image
-              src="https://stylolifestyle.com/images/categoryH9.png"
+              src="/image/categoryH9.png"
               alt="beggy"
               width={400}
               height={400}
@@ -121,14 +121,14 @@ export default function GridCarts() {
         <div className="relative">
           <Link href={`/shop/men`}>
             <Image
-              src="https://stylolifestyle.com/images/categoryH3.jpg"
+              src="/image/categoryH3.jpg"
               alt="beggy"
               width={400}
               height={400}
               className="w-full h-[768px] object-cover hidden lg:block group-hover:scale-110 transition duration-300 "
             />
             <Image
-              src="https://stylolifestyle.com/images/categoryH3.jpg"
+              src="/image/categoryH3.jpg"
               alt="beggy"
               width={400}
               height={400}

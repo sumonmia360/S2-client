@@ -11,7 +11,7 @@ export default function TopBar() {
         <Link href={`/shop/men`}>
           {" "}
           <Image
-            src="https://stylolifestyle.com/images/styloBanner2.png"
+            src="/image/styloBanner2.png"
             alt="Hero Banner"
             fill
             className="object-cover hidden lg:block"
@@ -19,7 +19,7 @@ export default function TopBar() {
           />
           <div className="">
             <Image
-              src="https://stylolifestyle.com/images/storiesZ5.jpg"
+              src="/image/storiesZ5.jpg"
               alt="Hero Banner"
               width={400}
               height={400}

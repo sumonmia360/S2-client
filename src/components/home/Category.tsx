@@ -9,62 +9,62 @@ const categories = {
   MEN: [
     {
       name: "Baggey",
-      img: "https://stylolifestyle.com/images/shopByL5.jpg",
+      img: "/image/shopByL5.jpg",
       link: "/shop/men/",
     },
     {
       name: "Cargo",
-      img: "https://stylolifestyle.com/images/shopByL9.png",
+      img: "/image/shopByL9.png",
       link: "/shop/men/",
     },
     {
       name: "Denim",
-      img: "https://stylolifestyle.com/images/shopByL8.png",
+      img: "/image/shopByL8.png",
       link: "/shop/men/",
     },
     {
       name: "Classy",
-      img: "https://stylolifestyle.com/images/shopByL4.png",
+      img: "/image/shopByL4.png",
       link: "/shop/men/",
     },
     {
       name: "Trendy",
-      img: "https://stylolifestyle.com/images/shopBy1.jpg",
+      img: "/image/shopBy1.jpg",
       link: "/shop/men/",
     },
   ],
   WOMEN: [
     {
       name: "Dresses",
-      img: "https://stylolifestyle.com/images/womensImg.png",
+      img: "/image/womensImg.png",
       link: "/#",
     },
     {
       name: "Tops",
-      img: "https://stylolifestyle.com/images/womensImg.png",
+      img: "/image/womensImg.png",
       link: "/#",
     },
     {
       name: "Jeans",
-      img: "https://stylolifestyle.com/images/womensImg.png",
+      img: "/image/womensImg.png",
       link: "/#",
     },
     {
       name: "Outerwear1",
-      img: "https://stylolifestyle.com/images/womensImg.png",
+      img: "/image/womensImg.png",
       link: "/#",
     },
-    // { name: "Outerwear", img: "https://stylolifestyle.com/images/womensImg.png", link: "/shop/women/outerwear" },
+    // { name: "Outerwear", img: "/image/womensImg.png", link: "/shop/women/outerwear" },
   ],
   KIDS: [
     {
       name: "Boys",
-      img: "https://stylolifestyle.com/images/kidsImg.png",
+      img: "/image/kidsImg.png",
       link: "/#",
     },
     {
       name: "Girls",
-      img: "https://stylolifestyle.com/images/kidsImg.png",
+      img: "/image/kidsImg.png",
       link: "/#",
     },
   ],

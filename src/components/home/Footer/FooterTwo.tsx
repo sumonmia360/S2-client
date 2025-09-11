@@ -17,14 +17,14 @@ import {
 
 const paymentLogos = [
   {
-    src: "https://stylolifestyle.com/images/mastercard.jpg",
+    src: "/image/mastercard.jpg",
     alt: "Mastercard",
   },
-  { src: "https://stylolifestyle.com/images/ae.jpg", alt: "American Express" },
-  { src: "https://stylolifestyle.com/images/visa.jpg", alt: "Visa" },
-  { src: "https://stylolifestyle.com/images/rocket.jpg", alt: "Rocket" },
-  { src: "https://stylolifestyle.com/images/nagad.jpg", alt: "Nagad" },
-  { src: "https://stylolifestyle.com/images/bkash.jpg", alt: "bKash" },
+  { src: "/image/ae.jpg", alt: "American Express" },
+  { src: "/image/visa.jpg", alt: "Visa" },
+  { src: "/image/rocket.jpg", alt: "Rocket" },
+  { src: "/image/nagad.jpg", alt: "Nagad" },
+  { src: "/image/bkash.jpg", alt: "bKash" },
 ];
 
 export default function FooterTwo() {

@@ -3,149 +3,149 @@
     "id": 1,
     "name": "A Cargo Jeans Dark black (6 Pockets)",
     "price": 1320,
-    "frontImage": "https://stylolifestyle.com/images/cargoImg.png",
-    "backImage": "https://stylolifestyle.com/images/img2a.jpg"
+    "frontImage": "/image/cargoImg.png",
+    "backImage": "/image/img2a.jpg"
   },
   {
     "id": 2,
     "name": "A Cargo Jeans Light black (6 Pockets)",
     "price": 1320,
-    "frontImage": "https://stylolifestyle.com/images/2.1.jpg",
-    "backImage": "https://stylolifestyle.com/images/img2.jpg"
+    "frontImage": "/image/2.1.jpg",
+    "backImage": "/image/img2.jpg"
   },
   {
     "id": 3,
     "name": "Baggy Jeans (Deep black)",
     "price": 1250,
-    "frontImage": "https://stylolifestyle.com/images/imgB2.jpg",
-    "backImage": "https://stylolifestyle.com/images/img2c.jpg"
+    "frontImage": "/image/imgB2.jpg",
+    "backImage": "/image/img2c.jpg"
   },
   {
     "id": 4,
     "name": "Baggy Jeans (Light black)",
     "price": 1250,
-    "frontImage": "https://stylolifestyle.com/images/demoImg-7.png",
-    "backImage": "https://stylolifestyle.com/images/img3b.jpg"
+    "frontImage": "/image/demoImg-7.png",
+    "backImage": "/image/img3b.jpg"
   },
   {
     "id": 5,
     "name": "Cargo Denim (6 Pockets,Deep Blue)",
     "price": "৳1,090",
-    "frontImage": "https://stylolifestyle.com/images/denimZ2.jpg",
-    "backImage": "https://stylolifestyle.com/images/imgL2.jpg"
+    "frontImage": "/image/denimZ2.jpg",
+    "backImage": "/image/imgL2.jpg"
   },
   {
     "id": 6,
     "name": "Cargo Denim (6 Pockets,Deep Blue)",
     "price": "৳1,090",
-    "frontImage": "https://stylolifestyle.com/images/denimZ3.jpg",
-    "backImage": "https://stylolifestyle.com/images/imgL2.jpg"
+    "frontImage": "/image/denimZ3.jpg",
+    "backImage": "/image/imgL2.jpg"
   },
 
   {
     "id": 7,
     "name": "Cargo Regular Fit (Deep Gray color)",
     "price": 1250,
-    "frontImage": "https://stylolifestyle.com/images/p1.jpg",
-    "backImage": "https://stylolifestyle.com/images/p1.jpg"
+    "frontImage": "/image/p1.jpg",
+    "backImage": "/image/p1.jpg"
   },
   {
     "id": 8,
     "name": "Cargo Baggy 6 Pockets (Ahs full Color)",
     "price": 1250,
-    "frontImage": "https://stylolifestyle.com/images/p2.jpg",
-    "backImage": "https://stylolifestyle.com/images/p2.jpg"
+    "frontImage": "/image/p2.jpg",
+    "backImage": "/image/p2.jpg"
   },
   {
     "id": 9,
     "name": "Cargo Baggy 6 Pockets (Black Color)",
     "price": 1450,
-    "frontImage": "https://stylolifestyle.com/images/p3.jpg",
-    "backImage": "https://stylolifestyle.com/images/p3.jpg"
+    "frontImage": "/image/p3.jpg",
+    "backImage": "/image/p3.jpg"
   },
   {
     "id": 10,
     "name": "Cargo Baggy 6 Pockets (Camel Color)",
     "price": 1450,
-    "frontImage": "https://stylolifestyle.com/images/p4.jpg",
-    "backImage": "https://stylolifestyle.com/images/p4.jpg"
+    "frontImage": "/image/p4.jpg",
+    "backImage": "/image/p4.jpg"
   },
   {
     "id": 11,
     "name": "Cargo Baggy Pant 6 Pockets (Khaki Color)",
     "price": 1250,
-    "frontImage": "https://stylolifestyle.com/images/p5.jpg",
-    "backImage": "https://stylolifestyle.com/images/p5.jpg"
+    "frontImage": "/image/p5.jpg",
+    "backImage": "/image/p5.jpg"
   },
 
   {
     "id": 13,
     "name": "Cargo Pant Regular Fit (Full Black Color)",
     "price": 1450,
-    "frontImage": "https://stylolifestyle.com/images/p7.jpg",
-    "backImage": "https://stylolifestyle.com/images/p7.jpg"
+    "frontImage": "/image/p7.jpg",
+    "backImage": "/image/p7.jpg"
   },
   {
     "id": 14,
     "name": "Cargo Regular Fit (Cream color)",
     "price": 1450,
-    "frontImage": "https://stylolifestyle.com/images/p8.jpg",
-    "backImage": "https://stylolifestyle.com/images/p8.jpg"
+    "frontImage": "/image/p8.jpg",
+    "backImage": "/image/p8.jpg"
   },
   {
     "id": 15,
     "name": "Cargo Regular Fit (Khaki color)",
     "price": 1250,
-    "frontImage": "https://stylolifestyle.com/images/p9.jpg",
-    "backImage": "https://stylolifestyle.com/images/p9.jpg"
+    "frontImage": "/image/p9.jpg",
+    "backImage": "/image/p9.jpg"
   },
   {
     "id": 16,
     "name": "Cargo Regular Fit (Khaki color)",
     "price": 1250,
-    "frontImage": "https://stylolifestyle.com/images/p10.jpg",
-    "backImage": "https://stylolifestyle.com/images/p10.jpg"
+    "frontImage": "/image/p10.jpg",
+    "backImage": "/image/p10.jpg"
   },
   {
     "id": 17,
     "name": "Cargo Regular Fit (Olive Color)",
     "price": 1450,
-    "frontImage": "https://stylolifestyle.com/images/p11.jpg",
-    "backImage": "https://stylolifestyle.com/images/p11.jpg"
+    "frontImage": "/image/p11.jpg",
+    "backImage": "/image/p11.jpg"
   },
   {
     "id": 18,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Ahs Color)",
     "price": 750,
-    "frontImage": "https://stylolifestyle.com/images/p12.jpg",
-    "backImage": "https://stylolifestyle.com/images/p12.jpg"
+    "frontImage": "/image/p12.jpg",
+    "backImage": "/image/p12.jpg"
   },
   {
     "id": 19,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Black Color)",
     "price": 750,
-    "frontImage": "https://stylolifestyle.com/images/p13.jpg",
-    "backImage": "https://stylolifestyle.com/images/p13.jpg"
+    "frontImage": "/image/p13.jpg",
+    "backImage": "/image/p13.jpg"
   },
   {
     "id": 20,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Camel Color)",
     "price": 750,
-    "frontImage": "https://stylolifestyle.com/images/p14.jpg",
-    "backImage": "https://stylolifestyle.com/images/p14.jpg"
+    "frontImage": "/image/p14.jpg",
+    "backImage": "/image/p14.jpg"
   },
   {
     "id": 21,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Khaki Color)",
     "price": 750,
-    "frontImage": "https://stylolifestyle.com/images/p15.jpg",
-    "backImage": "https://stylolifestyle.com/images/p15.jpg"
+    "frontImage": "/image/p15.jpg",
+    "backImage": "/image/p15.jpg"
   },
   {
     "id": 22,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Navy Blue Color)",
     "price": 750,
-    "frontImage": "https://stylolifestyle.com/images/p16.jpg",
-    "backImage": "https://stylolifestyle.com/images/p16.jpg"
+    "frontImage": "/image/p16.jpg",
+    "backImage": "/image/p16.jpg"
   }
 ]
