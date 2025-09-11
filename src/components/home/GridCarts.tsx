@@ -84,7 +84,7 @@ export default function GridCarts() {
         <div className="relative">
           <Link href={`/shop/men`}>
             <Image
-              src="https/stylolifestyle.com/image/categoryH9.png"
+              src="/image/categoryH9.png"
               alt="beggy"
               width={400}
               height={400}
