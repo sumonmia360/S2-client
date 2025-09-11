@@ -49,6 +49,12 @@ export default function TopBar() {
             >
               shop women
             </Link>
+            <img
+              src="/image/bannerImgL1.jpg"
+              alt="Banner"
+              width="400"
+              height="400"
+            />
           </div>
         </div>
       </section>
