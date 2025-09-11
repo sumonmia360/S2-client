@@ -1,0 +1,20 @@
+# .nixpacks.toml for Next.js 15 with Turbopack
+[phases.setup]
+# Use Node.js 20 (recommended for Next.js 15) and pnpm
+nixPkgs = ["nodejs_20", "pnpm"]
+
+[phases.install]
+# Install dependencies with frozen lockfile to avoid version mismatches
+cmd = "pnpm install --frozen-lockfile"
+
+[phases.build]
+# Build the Next.js app in production mode
+cmd = "pnpm build"
+
+[start]
+# Start the production server
+cmd = "pnpm start"
+
+[env]
+# Example environment variables (add your own in Coolify dashboard)
+# NEXT_PUBLIC_API_URL = "https://api.example.com"

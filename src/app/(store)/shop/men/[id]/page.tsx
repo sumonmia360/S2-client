@@ -170,10 +170,10 @@ export default function ProductDetailsPage() {
               Product Description
             </h2>
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-              Upgrade your wardrobe with STYLO&apos;s premium collection of
-              men&apos;s clothing. This {product.name} is crafted with durable
-              materials, designed for comfort and long-lasting wear. Perfect for
-              everyday styling and versatile enough to dress up or down.
+              Upgrade your wardrobe with STYLO's premium collection of men's
+              clothing. This {product.name} is crafted with durable materials,
+              designed for comfort and long-lasting wear. Perfect for everyday
+              styling and versatile enough to dress up or down.
             </p>
           </div>
         </div>
