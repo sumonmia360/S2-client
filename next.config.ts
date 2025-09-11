@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
       },
     ],
     unoptimized: true, // disables server-side image optimization
+    domains: ["stylolifestyle.com"],
   },
   devIndicators: false,
   eslint: {
