@@ -14,21 +14,21 @@ const stories = [
     label: "COLLABORATIONS",
     title: "THE KING’S GAMBIT",
     subtitle: "Changing the rules with Stylo Fashion",
-    image: "/image/storiesImg.png",
+    frontImage: "/image/storiesImg.png",
   },
   {
     id: 2,
     label: "COLLABORATIONS",
     title: "INSIDE OUT",
     subtitle: "Design duo mens on love, Cargo, and disruption",
-    image: "/image/storiesZ9.jpg",
+    frontImage: "/image/storiesZ9.jpg",
   },
   {
     id: 3,
     label: "COLLABORATIONS",
     title: "THE FASHION GORILLA",
     subtitle: "A natural collaboration with fine taxidermists Fashion.",
-    image: "/image/botam.jpg",
+    frontImage: "/image/botam.jpg",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function StoriesSection() {
               {/* Image */}
               <div className="relative w-full h-64 md:h-80">
                 <Image
-                  src={story.image}
+                  src={story.frontImage}
                   alt={story.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 
