@@ -32,7 +32,7 @@ export default function TopBar() {
         <div className="absolute inset-0 " />
         <div className="absolute z-10 max-w-4xl px-6  flex flex-col items-center gap-5 lg:bottom-4 bottom-4 lg:left-8 mb-3 lg:items-start">
           <h1 className="lg:text-3xl text-xl font-bold uppercase text-white ">
-            Beggy Focus
+            Baggy Focus
           </h1>
 
           <div className="flex gap-2 lg:mb-2">

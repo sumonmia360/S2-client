@@ -8,6 +8,16 @@ import Link from "next/link";
 const categories = {
   MEN: [
     {
+      name: "Classy",
+      img: "/image/shopByL4.png",
+      link: "/shop/men/",
+    },
+    {
+      name: "Trendy",
+      img: "/image/shopBy1.jpg",
+      link: "/shop/men/",
+    },
+    {
       name: "Baggey",
       img: "/image/shopByL5.jpg",
       link: "/shop/men/",
@@ -20,16 +30,6 @@ const categories = {
     {
       name: "Denim",
       img: "/image/shopByL8.png",
-      link: "/shop/men/",
-    },
-    {
-      name: "Classy",
-      img: "/image/shopByL4.png",
-      link: "/shop/men/",
-    },
-    {
-      name: "Trendy",
-      img: "/image/shopBy1.jpg",
       link: "/shop/men/",
     },
   ],
