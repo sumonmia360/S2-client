@@ -1,3 +1,3 @@
 export default function page() {
-  return <div>page</div>;
+  return <div>This the dashborad</div>;
 }

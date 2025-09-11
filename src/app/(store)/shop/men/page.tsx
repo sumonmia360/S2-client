@@ -90,7 +90,7 @@ export default function MenShopPage() {
         </div>
       )}
 
-      <div className="text-gray-500">
+      <div className="text-gray-500 px-3">
         <h1 className="font-semibold mb-1 text-gray-600 text-[17px]">
           Men's Clothing
         </h1>
