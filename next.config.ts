@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
         hostname: "**", // allow all hostnames
       },
     ],
-    unoptimized: true, // disables server-side image optimization (good for debugging)
+    // disables server-side image optimization (good for debugging)
     domains: ["stylolifestyle.com"], // keep your custom domain just in case
   },
   devIndicators: false,
