@@ -14,7 +14,7 @@ type Product = {
   id: number;
   name: string;
   price: number | string;
-  image: string;
+  frontImage: string;
   backImage: string;
 };
 
@@ -73,7 +73,7 @@ export default function ProductDetailsPage() {
         id: product.id,
         name: product.name,
         price: Number(product.price.toString().replace(/[^\d]/g, "")),
-        image: product.image,
+        image: product.frontImage,
         size: activeSize,
         quantity: 1,
       });
@@ -105,7 +105,7 @@ export default function ProductDetailsPage() {
           >
             <SwiperSlide>
               <Image
-                src={product.image}
+                src={product.frontImage}
                 alt={product.name}
                 width={600}
                 height={600}
