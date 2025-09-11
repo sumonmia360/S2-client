@@ -108,7 +108,7 @@ export default function Navbar() {
 
         {/* Center - Logo */}
         <Link
-          href="/#"
+          href="/"
           className={`text-3xl lg:mr-25 mr-0 md:ml-5 font-extrabold typedLogo tracking-widest ${playfair.className}`}
         >
           Stylo
