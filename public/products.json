@@ -2,14 +2,18 @@
   {
     "id": 1,
     "name": "A Cargo Jeans Dark black (6 Pockets)",
-    "price": 1320,
+    "price": 1650,
+    "discountPrice": 1320,
+    "discount": 20,
     "frontImage": "/image/cargoImg.png",
     "backImage": "/image/img2a.jpg"
   },
   {
     "id": 2,
     "name": "A Cargo Jeans Light black (6 Pockets)",
-    "price": 1320,
+    "price": 1650,
+    "discountPrice": 1320,
+    "discount": 20,
     "frontImage": "/image/2.1.jpg",
     "backImage": "/image/img2.jpg"
   },

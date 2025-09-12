@@ -8,7 +8,9 @@ const products = [
   {
     id: 1,
     name: "Cargo Jeans (Dark black)",
-    price: "৳1,320",
+    price: "1,650",
+    discountPrice: 1320,
+    discount: 20,
     front: "/image/cargoImg.png",
     back: "/image/img2a.jpg",
     slug: "product-one",
@@ -16,7 +18,9 @@ const products = [
   {
     id: 2,
     name: "Cargo Jeans (Light black)",
-    price: "৳1,320",
+    price: "1,650",
+    discountPrice: 1320,
+    discount: 20,
     front: "/image/2.1.jpg",
     back: "/image/img2.jpg",
     slug: "product-two",
@@ -24,7 +28,7 @@ const products = [
   {
     id: 3,
     name: "Baggy Jeans (Deep black)",
-    price: "৳1,250",
+    price: "1,250",
     front: "/image/imgB2.jpg",
     back: "/image/img2c.jpg",
     slug: "product-three",
@@ -32,7 +36,7 @@ const products = [
   {
     id: 4,
     name: "Baggy Jeans (Light black)",
-    price: "৳1,250",
+    price: "1,250",
     front: "/image/demoImg-7.png",
     back: "/image/img3b.jpg",
     slug: "product-four",
@@ -40,7 +44,7 @@ const products = [
   {
     id: 5,
     name: "Cargo Denim (6 Pockets,Deep Blue)",
-    price: "৳1,090",
+    price: "1,090",
     front: "/image/denimZ2.jpg",
     back: "/image/imgL2.jpg",
     slug: "product-four",
@@ -48,7 +52,7 @@ const products = [
   {
     id: 6,
     name: "Cargo Denim (6 Pockets,Deep Blue)",
-    price: "৳1,090",
+    price: "1,090",
     front: "/image/denimZ3.jpg",
     back: "/image/imgL2.jpg",
     slug: "product-four",
@@ -96,7 +100,20 @@ export default function TrendingPro() {
 
             {/* Product Info */}
             <div className="mt-3">
-              <p className=" font-bold text-[14px]">{product.price}</p>
+              <p className="text-[14px] font-bold ">
+                BDT <span>{product.price}</span>{" "}
+                <span
+                  className={
+                    product.discount ? "text-gray-500 line-through" : "hidden"
+                  }
+                >
+                  BDT 1,620
+                </span>{" "}
+                <span className={product.discount ? "text-red-600" : "hidden"}>
+                  20% OFF
+                </span>
+              </p>
+
               <p className="text-gray-500 text-[12px]">{product.name}</p>
             </div>
           </div>
