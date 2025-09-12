@@ -33,8 +33,8 @@ export default function TopBar() {
 
         {/* Content */}
         <div className="absolute z-10 max-w-4xl px-6  flex flex-col items-center gap-6 lg:bottom-4 bottom-5 lg:left-8 mb-3 lg:items-start">
-          <h1 className="md:text-3xl text-base font-semibold  uppercase text-white ">
-            New Cargo Release
+          <h1 className="md:text-3xl text-shadow-lg/30 text-base font-semibold  uppercase text-white ">
+            Stylo premium
           </h1>
           <div className="flex gap-2 lg:mb-2">
             <Link

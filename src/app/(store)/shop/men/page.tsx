@@ -9,7 +9,7 @@ type Product = {
   id: number;
   name: string;
   price: number;
-  discoutPrice: number;
+  discountPrice: number;
   discount: number;
   frontImage: string;
   backImage: string;
@@ -82,14 +82,14 @@ export default function MenShopPage() {
                 className="w-full h-60 lg:h-100 object-cover absolute top-0 left-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
               />
               <div className=" md:mb-10 hover:shadow-xl/20 p-1 hover:scale-101 cursor-pointer">
-                <p className="px-[2px] font-bold ">
+                <p className="px-[2px] font-bold text-[12px] ">
                   BDT <span>{product.price}</span>{" "}
                   <span
                     className={
                       product.discount ? "text-gray-500 line-through" : "hidden"
                     }
                   >
-                    BDT 1,620
+                    BDT 1,650
                   </span>{" "}
                   <span
                     className={product.discount ? "text-red-600" : "hidden"}
@@ -97,7 +97,7 @@ export default function MenShopPage() {
                     20% OFF
                   </span>
                 </p>
-                <h2 className="px-[2px] w-40 text-[14px] truncate md:text-[16px] md:w-full mb-4">
+                <h2 className="px-[2px] w-40  text-[12px] truncate md:text-[16px] md:w-full mb-4">
                   {product.name}
                 </h2>
               </div>

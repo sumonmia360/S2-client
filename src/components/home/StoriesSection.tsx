@@ -11,23 +11,24 @@ import "swiper/css/pagination";
 const stories = [
   {
     id: 1,
-    label: "COLLABORATIONS",
-    title: "THE KING’S GAMBIT",
-    subtitle: "Changing the rules with Stylo Fashion",
+
+    title: "STYLO FOR YOU",
+    subtitle: "Because true fashion is more than trend — Stylo is for you.",
     frontImage: "/image/storiesImg.png",
   },
   {
     id: 2,
-    label: "COLLABORATIONS",
-    title: "INSIDE OUT",
-    subtitle: "Design duo mens on love, Cargo, and disruption",
+
+    title: "CONVICTION",
+    subtitle:
+      "With conviction in every stitch, Stylo brings you timeless style.",
     frontImage: "/image/storiesZ9.jpg",
   },
   {
     id: 3,
-    label: "COLLABORATIONS",
-    title: "THE FASHION GORILLA",
-    subtitle: "A natural collaboration with fine taxidermists Fashion.",
+
+    title: "BOLD FUTURE",
+    subtitle: "A Bold Future begins with the confidence you wear.",
     frontImage: "/image/botam.jpg",
   },
 ];
@@ -63,9 +64,9 @@ export default function StoriesSection() {
                33vw"
                   className="object-cover"
                 />
-                <span className="absolute bottom-2 left-2 text-white text-xs font-bold  px-2 py-1">
+                {/* <span className="absolute bottom-2 left-2 text-white text-xs font-bold  px-2 py-1">
                   {story.label}
-                </span>
+                </span> */}
               </div>
 
               {/* Text */}

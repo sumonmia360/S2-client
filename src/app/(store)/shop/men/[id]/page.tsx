@@ -16,6 +16,7 @@ type Product = {
   price: number | string;
   frontImage: string;
   backImage: string;
+  sizeChart: string;
 };
 
 const sizes = [
@@ -167,6 +168,15 @@ export default function ProductDetailsPage() {
           {/* Product Description */}
           <div className="mt-8">
             <h2 className="font-semibold text-[16px] mb-2">
+              <div>
+                <Image
+                  src={product.sizeChart}
+                  alt={product.name}
+                  width={600}
+                  height={600}
+                  className="w-[300px] h-[200px] md:h-[200px] object-cover rounded-xl"
+                />
+              </div>
               Product Description
             </h2>
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">

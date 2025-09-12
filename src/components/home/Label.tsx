@@ -1,12 +1,12 @@
 "use client";
 
-import { BsBoxSeam } from "react-icons/bs";
-import { PiTruckThin } from "react-icons/pi";
+import { RiExchangeBoxFill } from "react-icons/ri";
+import { SiCodefresh } from "react-icons/si";
 import { motion, AnimatePresence } from "framer-motion";
 const messages = [
   {
-    text: "Free 3-day returns on full-price orders",
-    icon: <BsBoxSeam className="w-4 h-3 text-sm"></BsBoxSeam>,
+    text: "Exchange Within 3 Days",
+    icon: <RiExchangeBoxFill className="w-4 h-4 text-sm"></RiExchangeBoxFill>,
   },
   {
     text: "Explore our Fall lookbook",
@@ -15,8 +15,8 @@ const messages = [
     ),
   },
   {
-    text: "Free shipping",
-    icon: <PiTruckThin className="w-4 h-4 stroke-2 text-sm"></PiTruckThin>,
+    text: "Feel Fresh, Feel Stylo",
+    icon: <SiCodefresh className="w-4 h-4 text-sm"></SiCodefresh>,
   },
 ];
 
@@ -28,7 +28,7 @@ export default function Label() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % messages.length);
-    }, 5000); // প্রতি 5 সেকেন্ড পর পরিবর্তন
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -38,12 +38,12 @@ export default function Label() {
       text: "Explore our Fall lookbook",
     },
     {
-      icon: <PiTruckThin className="w-4 h-4 stroke-2 " />,
-      text: "Free shipping ",
+      icon: <SiCodefresh className="w-4 h-4  " />,
+      text: "Feel Fresh, Feel Stylo",
     },
     {
-      icon: <BsBoxSeam className="w-4 h-3" />,
-      text: "Free 3-day returns on full-price orders",
+      icon: <RiExchangeBoxFill className="w-4 h-4" />,
+      text: "Exchange Within 3 Days",
     },
   ];
 
@@ -70,8 +70,8 @@ export default function Label() {
           </p>
 
           <p className="flex gap-2 items-center">
-            <PiTruckThin className="w-4 h-4 stroke-2" />
-            Free shipping
+            <SiCodefresh className="w-4 h-4 " />
+            Feel Fresh Feel Stylo
           </p>
         </div>
       </div>

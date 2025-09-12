@@ -1,4 +1,3 @@
-// src/components/NowTrending.tsx
 "use client";
 import { FiHeart } from "react-icons/fi";
 import Image from "next/image";
@@ -8,7 +7,7 @@ const products = [
   {
     id: 1,
     name: "Cargo Jeans (Dark black)",
-    price: "1,650",
+    price: "1,320",
     discountPrice: 1320,
     discount: 20,
     front: "/image/cargoImg.png",
@@ -18,7 +17,7 @@ const products = [
   {
     id: 2,
     name: "Cargo Jeans (Light black)",
-    price: "1,650",
+    price: "1,320",
     discountPrice: 1320,
     discount: 20,
     front: "/image/2.1.jpg",
@@ -61,7 +60,7 @@ const products = [
 
 export default function TrendingPro() {
   return (
-    <section className="md:px-6 py-10">
+    <section className="md:px-6 px-2 py-10">
       <h2 className="text-2xl font-bold mb-6">Now Trending</h2>
       <div className="grid grid-cols-2 md:grid-cols-4  lg:grid-cols-6 gap-1">
         {products.map((product) => (
@@ -100,21 +99,21 @@ export default function TrendingPro() {
 
             {/* Product Info */}
             <div className="mt-3">
-              <p className="text-[14px] font-bold ">
+              <p className="text-[12px] font-semibold ml-1 ">
                 BDT <span>{product.price}</span>{" "}
                 <span
                   className={
                     product.discount ? "text-gray-500 line-through" : "hidden"
                   }
                 >
-                  BDT 1,620
+                  BDT 1,650
                 </span>{" "}
                 <span className={product.discount ? "text-red-600" : "hidden"}>
                   20% OFF
                 </span>
               </p>
 
-              <p className="text-gray-500 text-[12px]">{product.name}</p>
+              <p className="text-gray-500 text-[12px] ml-1">{product.name}</p>
             </div>
           </div>
         ))}

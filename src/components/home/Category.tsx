@@ -18,18 +18,18 @@ const categories = {
       link: "/shop/men/",
     },
     {
+      name: "Denim",
+      img: "/image/shopByL8.png",
+      link: "/shop/men/",
+    },
+    {
       name: "Baggey",
       img: "/image/shopByL5.jpg",
       link: "/shop/men/",
     },
     {
-      name: "Cargo",
+      name: "Jeans",
       img: "/image/shopByL9.png",
-      link: "/shop/men/",
-    },
-    {
-      name: "Denim",
-      img: "/image/shopByL8.png",
       link: "/shop/men/",
     },
   ],
