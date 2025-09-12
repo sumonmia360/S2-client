@@ -8,7 +8,7 @@ const products = [
   {
     id: 1,
     name: "Cargo Jeans (Dark black)",
-    price: "৳1,450",
+    price: "৳1,320",
     front: "/image/cargoImg.png",
     back: "/image/img2a.jpg",
     slug: "product-one",
@@ -16,7 +16,7 @@ const products = [
   {
     id: 2,
     name: "Cargo Jeans (Light black)",
-    price: "৳1,450",
+    price: "৳1,320",
     front: "/image/2.1.jpg",
     back: "/image/img2.jpg",
     slug: "product-two",
