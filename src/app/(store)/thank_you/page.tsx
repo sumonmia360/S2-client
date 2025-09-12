@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import confetti from "canvas-confetti";
 
 type CartItem = {
   id: number;
@@ -30,6 +31,31 @@ export default function ThankYouPage() {
       setOrder(JSON.parse(storedOrder));
       localStorage.removeItem("lastOrder"); // clear after reading
     }
+
+    // 🎉 Run Confetti Animation (School Pride Style)
+    const end = Date.now() + 2 * 1000;
+    const colors = ["#bb0000", "#ffffff"];
+
+    (function frame() {
+      confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors,
+      });
+      confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors,
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+    })();
   }, []);
 
   if (!order) {
@@ -52,7 +78,7 @@ export default function ThankYouPage() {
   return (
     <div className="px-4 md:px-10 py-10 max-w-3xl mx-auto">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-        Thank You!
+        🎉 Thank You!
       </h1>
       <p className="text-gray-600 mb-6 text-center">
         Your order has been placed successfully. Here are your order details:
