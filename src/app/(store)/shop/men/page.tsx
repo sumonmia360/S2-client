@@ -13,6 +13,7 @@ type Product = {
   discount: number;
   frontImage: string;
   backImage: string;
+  outOfStock: boolean;
 };
 
 export default function MenShopPage() {
@@ -81,6 +82,15 @@ export default function MenShopPage() {
                 height={400}
                 className="w-full h-60 lg:h-100 object-cover absolute top-0 left-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
               />
+              <h1
+                className={`${
+                  product.outOfStock
+                    ? "font-bold text-center text-[12px] p-2 absolute top-45    right-1/5 left-1/5   bg-white   text-red-600"
+                    : "hidden"
+                }`}
+              >
+                OUT OF STOCK
+              </h1>
               <div className=" md:mb-10 hover:shadow-xl/20 p-1 hover:scale-101 cursor-pointer">
                 <p className="px-[2px] font-bold text-[12px] ">
                   BDT <span>{product.price}</span>{" "}

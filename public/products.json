@@ -17,7 +17,8 @@
     "discount": 20,
     "frontImage": "/image/2.1.jpg",
     "backImage": "/image/img2.jpg",
-    "sizeChart": "/image/6Chart.jpg"
+    "sizeChart": "/image/6Chart.jpg",
+    "outOfStock": false
   },
   {
     "id": 3,
@@ -25,7 +26,8 @@
     "price": 1250,
     "frontImage": "/image/imgB2.jpg",
     "backImage": "/image/img2c.jpg",
-    "sizeChart": "/image/bChart.jpg"
+    "sizeChart": "/image/bChart.jpg",
+    "outOfStock": false
   },
   {
     "id": 4,
@@ -33,21 +35,26 @@
     "price": 1250,
     "frontImage": "/image/demoImg-7.png",
     "backImage": "/image/img3b.jpg",
-    "sizeChart": "/image/bChart.jpg"
+    "sizeChart": "/image/bChart.jpg",
+    "outOfStock": false
   },
   {
     "id": 5,
     "name": "Cargo Denim (6 Pockets,Deep Blue)",
     "price": "৳1,090",
     "frontImage": "/image/denimZ2.jpg",
-    "backImage": "/image/imgL2.jpg"
+    "backImage": "/image/imgL2.jpg",
+    "sizeChart": "/image/denimChart.jpg",
+    "outOfStock": false
   },
   {
     "id": 6,
     "name": "Cargo Denim (6 Pockets,Deep Blue)",
     "price": "৳1,090",
     "frontImage": "/image/denimZ3.jpg",
-    "backImage": "/image/imgL2.jpg"
+    "backImage": "/image/imgL2.jpg",
+    "sizeChart": "/image/denimChart.jpg",
+    "outOfStock": false
   },
 
   {
@@ -55,35 +62,45 @@
     "name": "Cargo Regular Fit (Deep Gray color)",
     "price": 990,
     "frontImage": "/image/p1.jpg",
-    "backImage": "/image/p1.jpg"
+    "backImage": "/image/p1.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
     "id": 8,
     "name": "Cargo Baggy 6 Pockets (Ahs full Color)",
     "price": 990,
     "frontImage": "/image/p2.jpg",
-    "backImage": "/image/p2.jpg"
+    "backImage": "/image/p2.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
     "id": 9,
     "name": "Cargo Baggy 6 Pockets (Black Color)",
     "price": 1450,
     "frontImage": "/image/p3.jpg",
-    "backImage": "/image/p3.jpg"
+    "backImage": "/image/p3.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
     "id": 10,
     "name": "Cargo Baggy 6 Pockets (Camel Color)",
     "price": 990,
     "frontImage": "/image/p4.jpg",
-    "backImage": "/image/p4.jpg"
+    "backImage": "/image/p4.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
     "id": 11,
     "name": "Cargo Baggy Pant 6 Pockets (Khaki Color)",
     "price": 990,
     "frontImage": "/image/p5.jpg",
-    "backImage": "/image/p5.jpg"
+    "backImage": "/image/p5.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
 
   {
@@ -91,62 +108,76 @@
     "name": "Cargo Pant Regular Fit (Full Black Color)",
     "price": 990,
     "frontImage": "/image/p7.jpg",
-    "backImage": "/image/p7.jpg"
+    "backImage": "/image/p7.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
     "id": 14,
     "name": "Cargo Regular Fit (Cream color)",
     "price": 990,
     "frontImage": "/image/p8.jpg",
-    "backImage": "/image/p8.jpg"
+    "backImage": "/image/p8.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
-  {
-    "id": 15,
-    "name": "Cargo Regular Fit (Khaki color)",
-    "price": 990,
-    "frontImage": "/image/p9.jpg",
-    "backImage": "/image/p9.jpg"
-  },
+
   {
     "id": 16,
     "name": "Cargo Regular Fit (Khaki color)",
     "price": 990,
     "frontImage": "/image/p10.jpg",
-    "backImage": "/image/p10.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Cargo Regular Fit (Olive Color)",
-    "price": 990,
-    "frontImage": "/image/p11.jpg",
-    "backImage": "/image/p11.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Ahs Color)",
-    "price": 750,
-    "frontImage": "/image/p12.jpg",
-    "backImage": "/image/p12.jpg"
+    "backImage": "/image/p10.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
     "id": 19,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Black Color)",
     "price": 750,
     "frontImage": "/image/p13.jpg",
-    "backImage": "/image/p13.jpg"
+    "backImage": "/image/p13.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
+  },
+
+  {
+    "id": 18,
+    "name": "Remi cotton half sleeve shirt",
+    "price": 750,
+    "frontImage": "/image/p12.jpg",
+    "backImage": "/image/p12.jpg",
+
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
     "id": 20,
-    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Camel Color)",
+    "name": "Remi cotton half sleeve shirt",
     "price": 750,
     "frontImage": "/image/p14.jpg",
-    "backImage": "/image/p14.jpg"
+    "backImage": "/image/p14.jpg",
+
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   },
   {
+    "id": 17,
+    "name": "Remi cotton half sleeve shirt",
+    "price": 990,
+    "frontImage": "/image/p11.jpg",
+    "backImage": "/image/p11.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
+  },
+
+  {
     "id": 21,
-    "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Khaki Color)",
+    "name": "Denim Full Sleeve",
     "price": 750,
     "frontImage": "/image/p15.jpg",
-    "backImage": "/image/p15.jpg"
+    "backImage": "/image/p15.jpg",
+    "outOfStock": true,
+    "sizeChart": "/image/regularFitChart.jpg"
   }
 ]

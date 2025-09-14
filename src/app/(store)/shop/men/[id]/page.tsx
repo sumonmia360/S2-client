@@ -17,6 +17,7 @@ type Product = {
   frontImage: string;
   backImage: string;
   sizeChart: string;
+  outOfStock: boolean;
 };
 
 const sizes = [
@@ -96,7 +97,7 @@ export default function ProductDetailsPage() {
     <div className="px-3 md:px-10 py-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left: Image Gallery */}
-        <div className="w-full">
+        <div className="w-full ">
           <Swiper
             spaceBetween={10}
             pagination={{ clickable: true }}
@@ -110,7 +111,7 @@ export default function ProductDetailsPage() {
                 alt={product.name}
                 width={600}
                 height={600}
-                className="w-full h-[400px] md:h-[500px] object-cover rounded-xl"
+                className="w-full h-[400px] md:h-[700px] object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -119,7 +120,7 @@ export default function ProductDetailsPage() {
                 alt={product.name}
                 width={600}
                 height={600}
-                className="w-full h-[400px] md:h-[500px] object-cover rounded-xl"
+                className="w-full h-[400px] md:h-[800px] object-cover rounded-xl"
               />
             </SwiperSlide>
           </Swiper>
@@ -166,8 +167,12 @@ export default function ProductDetailsPage() {
           </button>
 
           {/* Product Description */}
-          <div className="mt-8">
-            <h2 className="font-semibold text-[16px] mb-2">
+          <div className="mt-8 ">
+            <h2
+              className={`${
+                product.sizeChart ? "font-semibold text-[16px] mb-2" : "hidden"
+              }`}
+            >
               <div>
                 <Image
                   src={product.sizeChart}
