@@ -111,7 +111,7 @@ export default function ProductDetailsPage() {
                 alt={product.name}
                 width={600}
                 height={600}
-                className="w-full h-[400px] md:h-[700px] object-cover rounded-xl"
+                className="w-full h-[450px] md:h-[700px] object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -120,7 +120,7 @@ export default function ProductDetailsPage() {
                 alt={product.name}
                 width={600}
                 height={600}
-                className="w-full h-[400px] md:h-[800px] object-cover rounded-xl"
+                className="w-full h-[450px] md:h-[800px] object-cover rounded-xl"
               />
             </SwiperSlide>
           </Swiper>
