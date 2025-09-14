@@ -17,7 +17,8 @@ type Product = {
   frontImage: string;
   backImage: string;
   sizeChart: string;
-  outOfStock: boolean;
+  outOfStock?: boolean;
+  availableSizes?: string[]; // ✅ NEW FIELD
 };
 
 const sizes = [
@@ -46,7 +47,7 @@ export default function ProductDetailsPage() {
           );
           if (foundProduct) {
             setProduct(foundProduct);
-            setActiveSize(null); // Reset size when changing products
+            setActiveSize(null); // reset selected size
           } else {
             console.error("Product not found.");
             setProduct(null);
@@ -82,7 +83,7 @@ export default function ProductDetailsPage() {
     }
 
     localStorage.setItem("cart", JSON.stringify(cart));
-    router.push("/cart"); // Navigate to cart page after adding
+    router.push("/cart");
   };
 
   if (!product) {
@@ -138,23 +139,35 @@ export default function ProductDetailsPage() {
           {/* Size Selection */}
           <h2 className="font-semibold mb-2 text-[16px]">Available Sizes</h2>
           <div className="flex flex-wrap gap-2 mb-6">
-            {sizes.map((size) => (
-              <button
-                key={size}
-                onClick={() => setActiveSize(size)}
-                className={`px-3 py-1 border rounded-md text-sm md:text-base ${
-                  activeSize === size
-                    ? "bg-black text-white border-black"
-                    : "border-gray-400 text-gray-700 hover:bg-gray-100"
-                }`}
-              >
-                {size}
-              </button>
-            ))}
+            {sizes.map((size) => {
+              const inStock =
+                product.availableSizes?.length === 0
+                  ? false
+                  : product.availableSizes?.includes(size);
+
+              return (
+                <button
+                  key={size}
+                  disabled={!inStock}
+                  onClick={() => setActiveSize(size)}
+                  className={`px-3 py-1 border rounded-md text-sm md:text-base transition
+                    ${
+                      !inStock
+                        ? "bg-gray-100 text-gray-400 border-gray-300 cursor-not-allowed line-through"
+                        : activeSize === size
+                        ? "bg-black text-white border-black"
+                        : "border-gray-400 text-gray-700 hover:bg-gray-100"
+                    }`}
+                >
+                  {size}
+                </button>
+              );
+            })}
           </div>
 
           {/* Add to Cart Button */}
           <button
+            type="button"
             onClick={addToCart}
             disabled={!activeSize}
             className={`w-full md:w-auto px-6 py-3 text-sm md:text-base rounded-lg transition ${
@@ -167,13 +180,9 @@ export default function ProductDetailsPage() {
           </button>
 
           {/* Product Description */}
-          <div className="mt-8 ">
-            <h2
-              className={`${
-                product.sizeChart ? "font-semibold text-[16px] mb-2" : "hidden"
-              }`}
-            >
-              <div>
+          <div className="mt-8">
+            {product.sizeChart && (
+              <div className="mb-4">
                 <Image
                   src={product.sizeChart}
                   alt={product.name}
@@ -182,6 +191,8 @@ export default function ProductDetailsPage() {
                   className="w-[300px] h-[200px] md:h-[200px] object-cover rounded-xl"
                 />
               </div>
+            )}
+            <h2 className="font-semibold text-[16px] mb-2">
               Product Description
             </h2>
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">

@@ -7,6 +7,15 @@
     "discount": 20,
     "frontImage": "/image/cargoImg.png",
     "backImage": "/image/img2a.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "sizeChart": "/image/6Chart.jpg"
   },
   {
@@ -17,6 +26,15 @@
     "discount": 20,
     "frontImage": "/image/2.1.jpg",
     "backImage": "/image/img2.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "sizeChart": "/image/6Chart.jpg",
     "outOfStock": false
   },
@@ -26,6 +44,15 @@
     "price": 1250,
     "frontImage": "/image/imgB2.jpg",
     "backImage": "/image/img2c.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "sizeChart": "/image/bChart.jpg",
     "outOfStock": false
   },
@@ -35,15 +62,24 @@
     "price": 1250,
     "frontImage": "/image/demoImg-7.png",
     "backImage": "/image/img3b.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "sizeChart": "/image/bChart.jpg",
     "outOfStock": false
   },
   {
     "id": 5,
-    "name": "Cargo Denim (6 Pockets,Deep Blue)",
+    "name": "Cargo Denim (6 Pockets,Light Blue)",
     "price": "৳1,090",
     "frontImage": "/image/denimZ2.jpg",
     "backImage": "/image/imgL2.jpg",
+    "availableSizes": ["XS-28-29", "S-30-31", "M-32-33", "L-34-35"],
     "sizeChart": "/image/denimChart.jpg",
     "outOfStock": false
   },
@@ -53,6 +89,7 @@
     "price": "৳1,090",
     "frontImage": "/image/denimZ3.jpg",
     "backImage": "/image/imgL2.jpg",
+    "availableSizes": ["XS-28-29", "S-30-31", "M-32-33", "L-34-35", "XL-36-37"],
     "sizeChart": "/image/denimChart.jpg",
     "outOfStock": false
   },
@@ -63,6 +100,15 @@
     "price": 990,
     "frontImage": "/image/p1.jpg",
     "backImage": "/image/p1.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -72,6 +118,15 @@
     "price": 990,
     "frontImage": "/image/p2.jpg",
     "backImage": "/image/p2.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -81,6 +136,15 @@
     "price": 1450,
     "frontImage": "/image/p3.jpg",
     "backImage": "/image/p3.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -90,6 +154,15 @@
     "price": 990,
     "frontImage": "/image/p4.jpg",
     "backImage": "/image/p4.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -99,6 +172,15 @@
     "price": 990,
     "frontImage": "/image/p5.jpg",
     "backImage": "/image/p5.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -109,6 +191,15 @@
     "price": 990,
     "frontImage": "/image/p7.jpg",
     "backImage": "/image/p7.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -118,6 +209,15 @@
     "price": 990,
     "frontImage": "/image/p8.jpg",
     "backImage": "/image/p8.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -128,6 +228,15 @@
     "price": 990,
     "frontImage": "/image/p10.jpg",
     "backImage": "/image/p10.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -137,6 +246,15 @@
     "price": 750,
     "frontImage": "/image/p13.jpg",
     "backImage": "/image/p13.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -147,6 +265,15 @@
     "price": 750,
     "frontImage": "/image/p12.jpg",
     "backImage": "/image/p12.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
 
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
@@ -157,6 +284,15 @@
     "price": 750,
     "frontImage": "/image/p14.jpg",
     "backImage": "/image/p14.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
 
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
@@ -167,6 +303,15 @@
     "price": 990,
     "frontImage": "/image/p11.jpg",
     "backImage": "/image/p11.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -177,6 +322,15 @@
     "price": 750,
     "frontImage": "/image/p15.jpg",
     "backImage": "/image/p15.jpg",
+    "availableSizes": [
+      "XS-28-29",
+      "S-30-31",
+      "M-32-33",
+      "L-34-35",
+      "XL-36-37",
+      "2XL-38-39",
+      "3XL-40-42"
+    ],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   }
