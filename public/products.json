@@ -224,8 +224,8 @@
     "id": 19,
     "name": "Denim Full Sleeve",
     "price": 750,
-    "frontImage": "/image/p1.jpg",
-    "backImage": "/image/p1.jpg",
+    "frontImage": "/image/si15.jpg",
+    "backImage": "/image/si15.jpg",
     "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
