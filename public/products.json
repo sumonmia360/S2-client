@@ -186,7 +186,7 @@
   },
 
   {
-    "id": 13,
+    "id": 12,
     "name": "Cargo Pant Regular Fit (Full Black Color)",
     "price": 990,
     "frontImage": "/image/p7.jpg",
@@ -204,7 +204,7 @@
     "sizeChart": "/image/regularFitChart.jpg"
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Cargo Regular Fit (Cream color)",
     "price": 990,
     "frontImage": "/image/p8.jpg",
@@ -223,7 +223,7 @@
   },
 
   {
-    "id": 16,
+    "id": 14,
     "name": "Cargo Regular Fit (Khaki color)",
     "price": 990,
     "frontImage": "/image/p10.jpg",
@@ -241,7 +241,7 @@
     "sizeChart": "/image/regularFitChart.jpg"
   },
   {
-    "id": 19,
+    "id": 15,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Black Color)",
     "price": 750,
     "frontImage": "/image/p13.jpg",
@@ -260,7 +260,7 @@
   },
 
   {
-    "id": 18,
+    "id": 16,
     "name": "Remi cotton half sleeve shirt",
     "price": 750,
     "frontImage": "/image/p12.jpg",
@@ -279,7 +279,7 @@
     "sizeChart": "/image/regularFitChart.jpg"
   },
   {
-    "id": 20,
+    "id": 17,
     "name": "Remi cotton half sleeve shirt",
     "price": 750,
     "frontImage": "/image/p14.jpg",
@@ -298,7 +298,7 @@
     "sizeChart": "/image/regularFitChart.jpg"
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Remi cotton half sleeve shirt",
     "price": 990,
     "frontImage": "/image/p11.jpg",
@@ -317,7 +317,7 @@
   },
 
   {
-    "id": 21,
+    "id": 19,
     "name": "Denim Full Sleeve",
     "price": 750,
     "frontImage": "/image/p15.jpg",

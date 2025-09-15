@@ -132,7 +132,7 @@ export default function Navbar() {
             <p className="text-sm font-bold">EN</p>
           </Link>
 
-          <Link className="hidden md:block" href="/account">
+          <Link className="hidden md:block" href="/profile">
             <FaUser className=" " />
           </Link>
           <Link href="/wishlist">
