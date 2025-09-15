@@ -191,8 +191,8 @@
     "id": 16,
     "name": "Remi cotton half sleeve shirt",
     "price": 750,
-    "frontImage": "/image/si9.jpg",
-    "backImage": "/image/si9.jpg",
+    "frontImage": "/image/psi9.jpg",
+    "backImage": "/image/psi9.jpg",
     "availableSizes": [],
 
     "outOfStock": true,
@@ -224,8 +224,8 @@
     "id": 19,
     "name": "Denim Full Sleeve",
     "price": 750,
-    "frontImage": "/image/si15.jpg",
-    "backImage": "/image/si15.jpg",
+    "frontImage": "/image/psi15.jpg",
+    "backImage": "/image/psi15.jpg",
     "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
