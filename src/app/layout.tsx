@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-NGVMM6TT');
+              })(window,document,'script','dataLayer','G-5VFVFKSL61');
             `,
           }}
         />
@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* GTM NoScript */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NGVMM6TT"
+            src="https://www.googletagmanager.com/ns.html?id=G-5VFVFKSL61"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
