@@ -12,6 +12,13 @@ type CartItem = {
   quantity: number;
 };
 
+declare global {
+  interface Window {
+    fbq?: (...args: any[]) => void;
+    dataLayer?: any[];
+  }
+}
+
 export default function CheckoutPage() {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [name, setName] = useState("");
@@ -39,7 +46,6 @@ export default function CheckoutPage() {
     if (!name || !phone || !address) return;
 
     try {
-      // ✅ Send order to your production backend API
       const res = await fetch("https://api.stylolifestyle.com/api/orders", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -58,7 +64,6 @@ export default function CheckoutPage() {
         return;
       }
 
-      // ✅ Store last order locally for Thank You page
       localStorage.setItem(
         "lastOrder",
         JSON.stringify({
@@ -71,9 +76,22 @@ export default function CheckoutPage() {
         })
       );
 
-      // ✅ Clear cart and redirect
       localStorage.removeItem("cart");
       localStorage.removeItem("deliveryCharge");
+
+      // ✅ Track purchase with Facebook Pixel & GTM
+      if (typeof window !== "undefined" && window.fbq) {
+        window.fbq("track", "Purchase", {
+          value: totalPrice,
+          currency: "BDT",
+        });
+      }
+      window.dataLayer?.push({
+        event: "purchase",
+        value: totalPrice,
+        currency: "BDT",
+      });
+
       router.push("/thank_you");
     } catch (error) {
       console.error("❌ Failed to place order:", error);
@@ -91,7 +109,6 @@ export default function CheckoutPage() {
     <div className="px-4 md:px-10 py-10 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-6">Checkout</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Shipping Form */}
         <div>
           <h2 className="font-semibold mb-4">Shipping Details</h2>
           <div className="flex flex-col gap-4">
@@ -118,7 +135,6 @@ export default function CheckoutPage() {
           </div>
         </div>
 
-        {/* Order Summary */}
         <div className="border p-4 rounded shadow-md">
           <h2 className="font-semibold text-lg mb-4">Order Summary</h2>
           {cart.map((item) => (

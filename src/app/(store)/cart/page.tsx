@@ -13,10 +13,17 @@ type CartItem = {
   quantity: number;
 };
 
+declare global {
+  interface Window {
+    fbq?: (...args: any[]) => void;
+    dataLayer?: any[];
+  }
+}
+
 export default function CartPage() {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [location, setLocation] = useState<"Dhaka" | "Outside" | "">("");
-  const [deliveryCharge, setDeliveryCharge] = useState(70); // ✅ Default charge is 70
+  const [deliveryCharge, setDeliveryCharge] = useState(70);
 
   useEffect(() => {
     const storedCart = localStorage.getItem("cart");
@@ -29,7 +36,6 @@ export default function CartPage() {
       setLocation(storedLocation as "Dhaka" | "Outside");
       if (storedDelivery) setDeliveryCharge(Number(storedDelivery));
     } else {
-      // ✅ If no previous selection, set default as Inside Dhaka
       setLocation("Dhaka");
       setDeliveryCharge(70);
       localStorage.setItem("deliveryLocation", "Dhaka");
@@ -55,8 +61,6 @@ export default function CartPage() {
     const charge = loc === "Dhaka" ? 70 : 130;
     setLocation(loc);
     setDeliveryCharge(charge);
-
-    // Save location & delivery charge in localStorage
     localStorage.setItem("deliveryLocation", loc);
     localStorage.setItem("deliveryCharge", charge.toString());
   };
@@ -137,7 +141,6 @@ export default function CartPage() {
             <span>Subtotal:</span> <span>৳{subtotal}</span>
           </p>
 
-          {/* Delivery Option */}
           <div className="mb-4">
             <p className="mb-2 font-semibold">Delivery Location:</p>
             <div className="flex gap-4">
@@ -173,6 +176,15 @@ export default function CartPage() {
 
           <Link
             href={location ? "/checkout" : "#"}
+            onClick={() => {
+              if (typeof window !== "undefined" && window.fbq) {
+                window.fbq("track", "InitiateCheckout", {
+                  value: totalAmount,
+                  currency: "BDT",
+                });
+              }
+              window.dataLayer?.push({ event: "begin_checkout" });
+            }}
             className={`block text-center py-3 rounded ${
               location
                 ? "bg-black text-white hover:bg-gray-800"
