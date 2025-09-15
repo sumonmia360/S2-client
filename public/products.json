@@ -100,15 +100,7 @@
     "price": 990,
     "frontImage": "/image/p1.jpg",
     "backImage": "/image/p1.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -118,15 +110,7 @@
     "price": 990,
     "frontImage": "/image/p2.jpg",
     "backImage": "/image/p2.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -136,15 +120,7 @@
     "price": 1450,
     "frontImage": "/image/p3.jpg",
     "backImage": "/image/p3.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -154,15 +130,7 @@
     "price": 990,
     "frontImage": "/image/p4.jpg",
     "backImage": "/image/p4.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -172,15 +140,7 @@
     "price": 990,
     "frontImage": "/image/p5.jpg",
     "backImage": "/image/p5.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -191,15 +151,7 @@
     "price": 990,
     "frontImage": "/image/p7.jpg",
     "backImage": "/image/p7.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -209,15 +161,7 @@
     "price": 990,
     "frontImage": "/image/p8.jpg",
     "backImage": "/image/p8.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -228,15 +172,7 @@
     "price": 990,
     "frontImage": "/image/p10.jpg",
     "backImage": "/image/p10.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -244,17 +180,9 @@
     "id": 15,
     "name": "Cargo Regular Fit Whit Out Zipper And Blet System (Black Color)",
     "price": 750,
-    "frontImage": "/image/p13.jpg",
-    "backImage": "/image/p13.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "frontImage": "/image/p1.jpg",
+    "backImage": "/image/p1.jpg",
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -263,17 +191,9 @@
     "id": 16,
     "name": "Remi cotton half sleeve shirt",
     "price": 750,
-    "frontImage": "/image/p12.jpg",
-    "backImage": "/image/p12.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "frontImage": "/image/p1.jpg",
+    "backImage": "/image/p1.jpg",
+    "availableSizes": [],
 
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
@@ -282,17 +202,9 @@
     "id": 17,
     "name": "Remi cotton half sleeve shirt",
     "price": 750,
-    "frontImage": "/image/p14.jpg",
-    "backImage": "/image/p14.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "frontImage": "/image/p1.jpg",
+    "backImage": "/image/p1.jpg",
+    "availableSizes": [],
 
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
@@ -303,15 +215,7 @@
     "price": 990,
     "frontImage": "/image/p11.jpg",
     "backImage": "/image/p11.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   },
@@ -320,17 +224,9 @@
     "id": 19,
     "name": "Denim Full Sleeve",
     "price": 750,
-    "frontImage": "/image/p15.jpg",
-    "backImage": "/image/p15.jpg",
-    "availableSizes": [
-      "XS-28-29",
-      "S-30-31",
-      "M-32-33",
-      "L-34-35",
-      "XL-36-37",
-      "2XL-38-39",
-      "3XL-40-42"
-    ],
+    "frontImage": "/image/p1.jpg",
+    "backImage": "/image/p1.jpg",
+    "availableSizes": [],
     "outOfStock": true,
     "sizeChart": "/image/regularFitChart.jpg"
   }
