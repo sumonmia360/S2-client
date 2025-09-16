@@ -17,4 +17,4 @@ cmd = "pnpm start"
 
 [env]
 # Example environment variables (add your own in Coolify dashboard)
-# NEXT_PUBLIC_API_URL = "https://api.example.com"
+# NEXT_PUBLIC_API_URL = "https://stylo-fit-server.onrender.com"
