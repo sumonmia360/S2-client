@@ -25,6 +25,7 @@ export default function CheckoutPage() {
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
   const [deliveryCharge, setDeliveryCharge] = useState(0);
+  const [loading, setLoading] = useState(false); // ✅ Spinner state
   const router = useRouter();
 
   useEffect(() => {
@@ -45,6 +46,8 @@ export default function CheckoutPage() {
   const placeOrder = async () => {
     if (!name || !phone || !address) return;
 
+    setLoading(true); // ✅ Show spinner
+
     try {
       const res = await fetch("https://s2-server-1.onrender.com/api/orders", {
         method: "POST",
@@ -61,6 +64,7 @@ export default function CheckoutPage() {
 
       if (!res.ok) {
         console.error("❌ Failed to save order:", await res.text());
+        setLoading(false);
         return;
       }
 
@@ -95,6 +99,7 @@ export default function CheckoutPage() {
       router.push("/thank_you");
     } catch (error) {
       console.error("❌ Failed to place order:", error);
+      setLoading(false);
     }
   };
 
@@ -161,9 +166,14 @@ export default function CheckoutPage() {
 
           <button
             onClick={placeOrder}
-            className="mt-6 w-full bg-black text-white py-3 rounded hover:bg-gray-800 transition"
+            disabled={loading}
+            className="mt-6 w-full bg-black text-white py-3 rounded hover:bg-gray-800 transition flex justify-center items-center"
           >
-            Place Order
+            {loading ? (
+              <div className="h-5 w-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+            ) : (
+              "Place Order"
+            )}
           </button>
         </div>
       </div>
