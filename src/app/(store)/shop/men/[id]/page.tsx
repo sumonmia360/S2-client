@@ -18,7 +18,7 @@ type Product = {
   backImage: string;
   sizeChart: string;
   outOfStock?: boolean;
-  availableSizes?: string[]; // ✅ NEW FIELD
+  availableSizes?: string[];
 };
 
 const sizes = [
@@ -36,6 +36,7 @@ export default function ProductDetailsPage() {
   const router = useRouter();
   const [product, setProduct] = useState<Product | null>(null);
   const [activeSize, setActiveSize] = useState<string | null>(null);
+  const [error, setError] = useState<string>(""); // ✅ NEW STATE FOR ERROR
 
   useEffect(() => {
     if (id) {
@@ -47,7 +48,8 @@ export default function ProductDetailsPage() {
           );
           if (foundProduct) {
             setProduct(foundProduct);
-            setActiveSize(null); // reset selected size
+            setActiveSize(null);
+            setError(""); // clear error on new product
           } else {
             console.error("Product not found.");
             setProduct(null);
@@ -61,7 +63,12 @@ export default function ProductDetailsPage() {
   }, [id]);
 
   const addToCart = () => {
-    if (!product || !activeSize) return;
+    if (!activeSize) {
+      setError("⚠️ Please select a size first!");
+      return;
+    }
+
+    if (!product) return;
 
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
 
@@ -98,7 +105,7 @@ export default function ProductDetailsPage() {
     <div className="px-3 md:px-10 py-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left: Image Gallery */}
-        <div className="w-full ">
+        <div className="w-full">
           <Swiper
             spaceBetween={10}
             pagination={{ clickable: true }}
@@ -138,7 +145,7 @@ export default function ProductDetailsPage() {
 
           {/* Size Selection */}
           <h2 className="font-semibold mb-2 text-[16px]">Available Sizes</h2>
-          <div className="flex flex-wrap gap-2 mb-6">
+          <div className="flex flex-wrap gap-2 mb-2">
             {sizes.map((size) => {
               const inStock =
                 product.availableSizes?.length === 0
@@ -149,7 +156,10 @@ export default function ProductDetailsPage() {
                 <button
                   key={size}
                   disabled={!inStock}
-                  onClick={() => setActiveSize(size)}
+                  onClick={() => {
+                    setActiveSize(size);
+                    setError(""); // ✅ clear error when selecting size
+                  }}
                   className={`px-3 py-1 border rounded-md text-sm md:text-base transition
                     ${
                       !inStock
@@ -165,16 +175,19 @@ export default function ProductDetailsPage() {
             })}
           </div>
 
+          {/* Error Message */}
+          {error && <p className="text-red-600 text-sm mb-4">{error}</p>}
+
           {/* Add to Cart Button */}
           <button
             type="button"
             onClick={addToCart}
-            disabled={!activeSize}
-            className={`w-full md:w-auto px-6 py-3 text-sm md:text-base rounded-lg transition ${
-              activeSize
-                ? "bg-black text-white hover:bg-gray-800"
-                : "bg-gray-300 text-gray-500 cursor-not-allowed"
-            }`}
+            className={`w-full md:w-auto px-6 py-3 text-sm md:text-base rounded-lg transition 
+              ${
+                activeSize
+                  ? "bg-black text-white hover:bg-gray-800"
+                  : "bg-black text-white"
+              }`}
           >
             Add to Cart
           </button>
