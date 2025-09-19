@@ -46,21 +46,18 @@ export default function CheckoutPage() {
     if (!name || !phone || !address) return;
 
     try {
-      const res = await fetch(
-        "https://stylo-fit-server.onrender.com/api/orders",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            name,
-            phone,
-            address,
-            cart,
-            deliveryCharge,
-            totalPrice,
-          }),
-        }
-      );
+      const res = await fetch("https://s2-server-1.onrender.com/api/orders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name,
+          phone,
+          address,
+          cart,
+          deliveryCharge,
+          totalPrice,
+        }),
+      });
 
       if (!res.ok) {
         console.error("❌ Failed to save order:", await res.text());
